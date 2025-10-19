@@ -1,0 +1,1520 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "tier_9__uhv"
+	group: "6B3EFCC5BFD49997"
+	icon: "gtceu:neutronium_ingot"
+	id: "5BDBF9992074CC3A"
+	order_index: 11
+	quest_links: [
+		{
+			id: "35A4E45F1F9D5129"
+			linked_quest: "02FB67793FFB1B16"
+			shape: "rsquare"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "56FF6565F0D8AAEC"
+			linked_quest: "69D2657F779DFFE6"
+			x: 2.5d
+			y: 1.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["02FB67793FFB1B16"]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest2219144416221955160.description1}"
+				"{ftbquests.chapter.tier_9__uhv.quest2219144416221955160.description2}"
+			]
+			id: "1ECBFC16CA338458"
+			rewards: [{
+				count: 2
+				id: "2D75976A884704F0"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26C2687C4531C6F5"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1ECBFC16CA338458"]
+			description: ["{ftbquests.chapter.tier_9__uhv.quest1765742837575109468.description1}"]
+			id: "18812DC1665ACB5C"
+			rewards: [{
+				count: 2
+				id: "7CC1446C2E9E920B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "021FF05276897F5A"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["18812DC1665ACB5C"]
+			description: ["{ftbquests.chapter.tier_9__uhv.quest6676098566621027479.description1}"]
+			id: "5CA644465CF0DC97"
+			rewards: [{
+				count: 2
+				id: "10905DA47FECA2BA"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "321C4745F5E0F3A7"
+				item: "kubejs:fallen_singularity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["02FB67793FFB1B16"]
+			id: "54696AD3E7A21F00"
+			rewards: [
+				{
+					id: "73D89EC75F09804A"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3D479FE8745CF2CD"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest6082510230097370880.subtitle}"
+			tasks: [{
+				id: "2555049AF3B694A7"
+				item: "kubejs:gravitational_containment_cell"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69D2657F779DFFE6"]
+			description: ["{ftbquests.chapter.tier_9__uhv.quest1607188170612141595.description1}"]
+			id: "164DE1203C8BEE1B"
+			rewards: [{
+				count: 2
+				id: "402EC4B7D90416CD"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45CDABBA470DB380"
+				item: "kubejs:quantum_energy_capsule"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69D2657F779DFFE6"]
+			description: ["{ftbquests.chapter.tier_9__uhv.quest434868420884572934.description1}"]
+			id: "0608F68656DC2B06"
+			rewards: [{
+				count: 2
+				id: "27D1BE39AD318EB8"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F4F2B9EE2C28064"
+				item: "gtceu:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02FB67793FFB1B16"]
+			description: ["{ftbquests.chapter.tier_9__uhv.quest6085629448430218890.description1}"]
+			id: "54747FBD8456EE8A"
+			rewards: [{
+				count: 2
+				id: "7919828305EF4BAA"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "778350AD252DDB6B"
+				item: "gtceu:uhv_ultimate_battery"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0608F68656DC2B06"]
+			id: "3BCC5333E39DCDB5"
+			rewards: [{
+				count: 2
+				id: "612A75E8DA301936"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12ED3B5D998108FC"
+				item: "gtceu:dense_crystal_matrix_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BCC5333E39DCDB5"]
+			description: ["{ftbquests.chapter.tier_9__uhv.quest5762338008537486254.description1}"]
+			id: "4FF7EFE37A9BD3AE"
+			rewards: [
+				{
+					count: 2
+					id: "5E4DA792EED3FDA1"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+				{
+					id: "3D7A0554B1AA7D1E"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_scythe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 2
+								AoELayer: 2
+								AoERow: 2
+								MaxAoEColumn: 2
+								MaxAoELayer: 2
+								MaxAoERow: 2
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 105.0f
+								AttackSpeed: -2.5f
+								Damage: 0
+								HarvestLevel: 6
+								MaxDamage: 196604
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B1ABC1957380766"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4FF7EFE37A9BD3AE"]
+			id: "0379F0315FC8B73F"
+			rewards: [{
+				count: 2
+				id: "7573C46AB97ADDC1"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C652317D68ADB8B"
+				item: "draconicevolution:energy_core_stabilizer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4FF7EFE37A9BD3AE"]
+			id: "49C64FFB6F5EABFC"
+			rewards: [{
+				count: 2
+				id: "532320EDE54A0857"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F244CC8FDCF1110"
+				item: "draconicevolution:particle_generator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"54747FBD8456EE8A"
+				"54696AD3E7A21F00"
+				"164DE1203C8BEE1B"
+				"0379F0315FC8B73F"
+				"49C64FFB6F5EABFC"
+			]
+			description: ["{ftbquests.chapter.tier_9__uhv.quest2972816344615777753.description1}"]
+			id: "294190B6FB4C75D9"
+			rewards: [
+				{
+					count: 5
+					id: "34C3E7282C506305"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+				{
+					id: "1DC193AE5CC715C1"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "5D3C62C982F4BC27"
+				item: "gtceu:dimensional_matter_extractor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["294190B6FB4C75D9"]
+			id: "66C76E2ED346F471"
+			rewards: [{
+				count: 2
+				id: "175984C0AC53A1D2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19AC36C7BF563852"
+				item: "kubejs:exotic_matter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["294190B6FB4C75D9"]
+			id: "56EE14CC857B60B3"
+			rewards: [{
+				count: 2
+				id: "75F1A12284024846"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C3A5D7EC4E5ACE3"
+				item: "kubejs:stable_matter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5CA644465CF0DC97"
+				"66C76E2ED346F471"
+			]
+			id: "4592FBF524AFDCBF"
+			rewards: [{
+				count: 2
+				id: "0B858658EE54DB9D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest5013346365517847743.subtitle}"
+			tasks: [{
+				id: "109B3A87FFB971FD"
+				item: "kubejs:stabilized_collapsed_singularity"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"56EE14CC857B60B3"
+				"66C76E2ED346F471"
+			]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest2675065194452210769.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest2675065194452210769.description2}"
+			]
+			id: "251FBD9F0A55D451"
+			rewards: [{
+				count: 6
+				id: "6FA9CD5BD3352762"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "565F0F0F7A8555A9"
+				item: "gtceu:atomicompressor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4592FBF524AFDCBF"
+				"251FBD9F0A55D451"
+			]
+			description: ["{ftbquests.chapter.tier_9__uhv.quest7496887736634345923.description1}"]
+			id: "680A4BAD1F1289C3"
+			rewards: [{
+				count: 2
+				id: "4CB469EE470C4C0B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "04809BA0BEBA36F6"
+				item: "kubejs:atomically_compressed_black_hole"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["680A4BAD1F1289C3"]
+			id: "695308CFB8D4505C"
+			rewards: [{
+				count: 2
+				id: "3FCB2085E5E388F7"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "605639B0FF73EEBB"
+				item: "gtceu:antimatter_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4592FBF524AFDCBF"
+				"680A4BAD1F1289C3"
+			]
+			id: "0032181B1C8FC0C2"
+			rewards: [{
+				count: 2
+				id: "3E6E310773695E1F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72957FB6E56E93FC"
+				item: "kubejs:quantum_resonant_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0032181B1C8FC0C2"]
+			id: "27F6A813D963DDF4"
+			rewards: [{
+				count: 6
+				id: "677B31DA76F2F40D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "7EF846B54C7DE77B"
+				item: "gtceu:supercriticalvibrationsifter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["27F6A813D963DDF4"]
+			icon: "extendedcrafting:ultimate_singularity"
+			id: "5FBA0D688D633430"
+			rewards: [{
+				count: 2
+				id: "51050707B82D68F8"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest6897840521971184688.subtitle}"
+			tasks: [
+				{
+					id: "4AB1F4FC6068B7C2"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:atomic_alloy"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "654A07E510ACD4C4"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:rhodium_plated_palladium"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50E649ED450DFFF6"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:steel"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36BC4CE753EB8B26"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:darmstadtium"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "534AB5E98A046A0E"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:neutronium"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "085C27DC280494BF"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:titanium"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "461902D31C7124E3"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:naquadah_alloy"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D35D1E0AFDB308C"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:stainless_steel"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B040A9410C95D0"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:tungstensteel"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F08323B7FDB1C21"
+					item: {
+						Count: 1
+						id: "avaritia:singularity"
+						tag: {
+							Id: "avaritia:aluminum"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_9__uhv.quest6897840521971184688.title}"
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"27F6A813D963DDF4"
+				"687F155B59B5FC1C"
+				"5FBA0D688D633430"
+			]
+			id: "263D6635CA60A036"
+			rewards: [{
+				id: "6931D02FA73E7D11"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C9DA6E7C01E28A4"
+				item: "kubejs:supercritical_neutronium_casing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5FBA0D688D633430"
+				"7104D17C80C2DF74"
+			]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest7529760584078064668.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest7529760584078064668.description2}"
+			]
+			id: "687F155B59B5FC1C"
+			rewards: [
+				{
+					count: 16
+					id: "7E4AAF285036A1D2"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+				{
+					id: "26EF829AB9342C3C"
+					item: {
+						Count: 1
+						id: "trophymanager:trophy"
+						tag: {
+							BaseBlock: "ad_astra:polished_permafrost_slab"
+							Name: "Eternal Singularity Trophy"
+							OffsetY: 0.55d
+							Scale: 0.75d
+							TrophyItem: {
+								Count: 1.0d
+								id: "avaritia:eternal_singularity"
+							}
+							TrophyType: "item"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest7529760584078064668.subtitle}"
+			tasks: [{
+				id: "2C3A27D5205DB926"
+				item: "avaritia:eternal_singularity"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["687F155B59B5FC1C"]
+			id: "6463C37333165A07"
+			rewards: [{
+				count: 2
+				id: "6FF529872FC24A7E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1234FC8C6807F45A"
+					item: "gtceu:uhv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "65FE6E9075D72AED"
+					item: "gtceu:uhv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "4DB129468B61860B"
+					item: { Count: 64, id: "gtceu:uhv_conveyor_module" }
+					type: "item"
+				}
+				{
+					id: "03E48C972C035003"
+					item: "gtceu:uhv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "6EDB345805BB74B7"
+					item: "gtceu:uhv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_9__uhv.quest7233840326032906759.title}"
+			x: 11.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6463C37333165A07"]
+			id: "3935F91B104E894B"
+			rewards: [{
+				count: 2
+				id: "1237AA0136FE2033"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest4122474928560572747.subtitle}"
+			tasks: [{
+				id: "7F4C7E5FABCCF75A"
+				item: "gtceu:uhv_assembler"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3935F91B104E894B"]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest5880935612346971346.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest5880935612346971346.description2}"
+			]
+			id: "519D47C7E8E2B4D2"
+			rewards: [{
+				count: 2
+				id: "131C1D0E50D0B511"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest5880935612346971346.subtitle}"
+			tasks: [{
+				id: "55A8D3FB570C82C7"
+				item: "gtceu:uhv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tier_9__uhv.quest5880935612346971346.title}"
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			description: ["{ftbquests.chapter.tier_9__uhv.quest6479272705586521846.description1}"]
+			icon: {
+				Count: 1
+				id: "ad_astra:netherite_space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59EB0032735E66F6"
+			rewards: [{
+				count: 2
+				id: "0911B37C576637D1"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest6479272705586521846.subtitle}"
+			tasks: [
+				{
+					id: "19D23267CF3D0D1C"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CF799842C8731EF"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03305F16A213CB9C"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5764DB7BEF750A55"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_9__uhv.quest6479272705586521846.title}"
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"59EB0032735E66F6"
+				"3935F91B104E894B"
+			]
+			id: "67555843799DBDD7"
+			rewards: [{
+				count: 16
+				id: "0A56DB25D39331D4"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "5FF40756D5362A3A"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["67555843799DBDD7"]
+			icon: "ad_astra:venus_globe"
+			id: "24E55FA9B85C8F5E"
+			rewards: [{
+				count: 2
+				id: "781B999DC2461ACC"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "602F469811549DCB"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.tier_9__uhv.quest2658636337579331422.title}"
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67555843799DBDD7"]
+			icon: "ad_astra:mercury_globe"
+			id: "09C67452DFDDA7FD"
+			rewards: [{
+				count: 2
+				id: "343EA7011AF3A433"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "58D9D3B0FC4BD6F9"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.tier_9__uhv.quest704378291022047229.title}"
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["09C67452DFDDA7FD"]
+			id: "4D28528655B1AF54"
+			rewards: [{
+				count: 2
+				id: "3B542A3C645FD207"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest5559784476905680724.subtitle}"
+			tasks: [{
+				id: "13398463CF25E6E5"
+				item: "kubejs:rad_primary_resonant_particles"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["09C67452DFDDA7FD"]
+			description: ["{ftbquests.chapter.tier_9__uhv.quest3546617561096528936.description1}"]
+			id: "31381DE18B522428"
+			rewards: [{
+				count: 2
+				id: "14C27E9C2F3740F1"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A790FBEFE1D417F"
+				item: "gtceu:kaemite_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24E55FA9B85C8F5E"]
+			id: "44ECE182566B19C6"
+			rewards: [{
+				count: 2
+				id: "1E86379723898C36"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest4966592438994672070.subtitle}"
+			tasks: [{
+				id: "7415CDC988F1499F"
+				item: "gtceu:acidic_venus_residue_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D28528655B1AF54"]
+			id: "686884CB55C62494"
+			rewards: [{
+				count: 2
+				id: "1502EBD50140BEEB"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "356D59D84EACBF6A"
+				item: "kubejs:primal_resonant_core"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"44ECE182566B19C6"
+				"686884CB55C62494"
+			]
+			id: "1817E22F002CB954"
+			rewards: [{
+				count: 2
+				id: "011DC11099DB7E50"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53009BF1EA5DB967"
+				item: "gtceu:resonant_essence_residue_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1817E22F002CB954"]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest1836490051999732142.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest1836490051999732142.description2}"
+			]
+			id: "197C85F8DEFB91AE"
+			rewards: [{
+				count: 2
+				id: "28FA55207E749B1B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67F749533569F0BF"
+				item: "gtceu:resonant_essence_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["197C85F8DEFB91AE"]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest436861172238489110.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest436861172238489110.description2}"
+			]
+			id: "06100AEBEB6F9616"
+			rewards: [{
+				count: 2
+				id: "30EDEEF1014864DF"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48A4FB1FBD1309BF"
+				item: "kubejs:gravitational_fluctuation_module"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31381DE18B522428"]
+			id: "3ADFF25145B40563"
+			rewards: [{
+				count: 2
+				id: "5480E5DF1680A278"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "634FD0A8C62BAAD4"
+				item: "kubejs:kaemite_casing"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"06100AEBEB6F9616"
+				"3ADFF25145B40563"
+			]
+			id: "4AD46A58DA77BD53"
+			rewards: [
+				{
+					id: "4CDBBC8F2CFFA626"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+				{
+					id: "3C0480AACCACBC42"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D3EA51B102E8C21"
+				item: "kubejs:quantum_casing"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3ADFF25145B40563"
+				"4AD46A58DA77BD53"
+			]
+			description: ["{ftbquests.chapter.tier_9__uhv.quest6318003404936189988.description1}"]
+			id: "57AE0E9F60EE1824"
+			rewards: [
+				{
+					count: 26
+					id: "71171ADAC6EB633D"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+				{
+					id: "6579D96D880921CA"
+					item: {
+						Count: 1
+						id: "trophymanager:trophy"
+						tag: {
+							BaseBlock: "antiblocksrechiseled:slab_black"
+							Name: "Quantum Space Projector"
+							OffsetY: 0.55d
+							Scale: 0.75d
+							TrophyItem: {
+								Count: 1.0d
+								id: "gtceu:quantum_space_projector"
+							}
+							TrophyType: "item"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest6318003404936189988.subtitle}"
+			tasks: [{
+				id: "1BA40138B5CF61C4"
+				item: "gtceu:quantum_space_projector"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57AE0E9F60EE1824"]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest7818772367781251204.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest7818772367781251204.description2}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest7818772367781251204.description3}"
+			]
+			id: "6C81DC0AF93DC884"
+			rewards: [{
+				count: 2
+				id: "629D751279EAF241"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "79B789FA95C653B3"
+				item: "kubejs:drilling_projector_module"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["57AE0E9F60EE1824"]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest4535434693087481197.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest4535434693087481197.description2}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest4535434693087481197.description3}"
+			]
+			id: "3EF119D2D7764D6D"
+			rewards: [{
+				count: 2
+				id: "4E8E44D18B864C1B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7B7579FB40778B1C"
+				item: "kubejs:pumping_projector_module"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["57AE0E9F60EE1824"]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest3210164626777998785.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest3210164626777998785.description2}"
+			]
+			id: "2C8CCBB849A085C1"
+			rewards: [{
+				count: 2
+				id: "7F37D915B1FAD3AC"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "76FA30FB5438CB9C"
+				item: "kubejs:cosmic_projector_module"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["57AE0E9F60EE1824"]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest668539416023260036.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest668539416023260036.description2}"
+			]
+			id: "0947210E8A69DB84"
+			rewards: [{
+				count: 2
+				id: "5C40AF07BC23CDBD"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest668539416023260036.subtitle}"
+			tasks: [{
+				id: "34C90D6FF345B08E"
+				item: "kubejs:fusion_projector_module"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2C8CCBB849A085C1"
+				"79325F05275A6041"
+			]
+			id: "253E0D6D2F38DB28"
+			rewards: [{
+				count: 2
+				id: "7BBCD44E6B644C38"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest2683597190554245928.subtitle}"
+			tasks: [{
+				id: "37918DE7195608D9"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"06100AEBEB6F9616"
+				"14DA1644C84FC058"
+			]
+			id: "79325F05275A6041"
+			rewards: [{
+				count: 2
+				id: "636AAA5CC54A9C8E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77BFC892E1763591"
+				item: "kubejs:resonant_essence_coil_block"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"253E0D6D2F38DB28"
+				"1F43AADC6C229EAF"
+			]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest6277294901359904619.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest6277294901359904619.description2}"
+				"{ftbquests.chapter.tier_9__uhv.quest6277294901359904619.description3}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest6277294901359904619.description4}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest6277294901359904619.description5}"
+			]
+			id: "571D6E7449ED876B"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.tier_9__uhv.quest6277294901359904619.subtitle}"
+			tasks: [{
+				id: "79E20BF223D5DCB9"
+				item: "gtceu:uev_machine_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["687F155B59B5FC1C"]
+			id: "195B7677D3E2F874"
+			rewards: [{
+				count: 2
+				id: "5BC1D5245F605433"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EF0C9394CB63D80"
+				item: "kubejs:antimatter_boule"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"195B7677D3E2F874"
+				"197C85F8DEFB91AE"
+			]
+			id: "1F87E3C3B7E7B86F"
+			rewards: [{
+				count: 2
+				id: "2EC7B960CFE945DD"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BA36F91592A0FB0"
+				item: "kubejs:highly_resonative_circuit_board"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1F87E3C3B7E7B86F"]
+			id: "10390BE89A74376A"
+			rewards: [{
+				count: 2
+				id: "0895819316FDE3F5"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "4626872EF686C9B5"
+				item: "kubejs:highly_resonative_printed_circuit_board"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["10390BE89A74376A"]
+			id: "77C63918DA40DB6D"
+			rewards: [{
+				count: 2
+				id: "40F847A2F852178C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "62F8E13F51FA1968"
+				item: "kubejs:resonant_processor"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["77C63918DA40DB6D"]
+			id: "0000EB23A4DB32DF"
+			rewards: [{
+				count: 2
+				id: "387ED5E93761C9F6"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5B627E711C28133A"
+				item: "kubejs:resonant_processor_assembly"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0000EB23A4DB32DF"]
+			id: "49CC37DA397CA3B3"
+			rewards: [{
+				count: 2
+				id: "3CBE748AAF5D671A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "4B5C23858226823E"
+				item: "kubejs:resonant_processor_computer"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"49CC37DA397CA3B3"
+				"5DBF28E106095546"
+			]
+			id: "1F43AADC6C229EAF"
+			rewards: [{
+				count: 16
+				id: "6F6E30D8729BA085"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "15F3C5B3DDD8E2E3"
+				item: "kubejs:resonant_processor_mainframe"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 13.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2C8CCBB849A085C1"]
+			id: "5DBF28E106095546"
+			rewards: [{
+				count: 2
+				id: "7FF624291EBA38AC"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25F9E1FB9691F42B"
+				item: "kubejs:highly_resonative_soc"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tier_9__uhv.quest6755162913013060934.title}"
+			x: 21.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0608F68656DC2B06"]
+			id: "1E4509569E3F85B0"
+			rewards: [{
+				count: 2
+				id: "10F391FA3F7962EF"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A28765B338B5806"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1E4509569E3F85B0"]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest8143864358859104116.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest8143864358859104116.description2}"
+			]
+			id: "7104D17C80C2DF74"
+			rewards: [{
+				count: 2
+				id: "6EE49623E5953F89"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C3690C3D288F021"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7104D17C80C2DF74"]
+			description: [
+				"{ftbquests.chapter.tier_9__uhv.quest547047746005161740.description1}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest547047746005161740.description2}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest547047746005161740.description3}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest547047746005161740.description4}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest547047746005161740.description5}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest547047746005161740.description6}"
+				""
+				"{ftbquests.chapter.tier_9__uhv.quest547047746005161740.description7}"
+			]
+			icon: "packagedavaritia:extreme_crafter"
+			id: "07978106CFD0D70C"
+			rewards: [{
+				count: 10
+				id: "04DE43BFB068B83A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "330755B07B23517F"
+					item: "packagedavaritia:extreme_crafter"
+					type: "item"
+				}
+				{
+					id: "6142341CAF567DB6"
+					item: "packagedauto:encoder"
+					type: "item"
+				}
+				{
+					id: "1A8124D3EC0FC20D"
+					item: "packagedauto:packager"
+					type: "item"
+				}
+				{
+					id: "33DCCD61794C5C27"
+					item: "packagedauto:unpackager"
+					type: "item"
+				}
+				{
+					id: "589D3BBC4D382637"
+					item: "packagedauto:recipe_holder"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_9__uhv.quest547047746005161740.title}"
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0608F68656DC2B06"]
+			id: "6AE3536AC3819B85"
+			tasks: [{
+				id: "604624B671ECE61F"
+				item: "gtceu:crystal_matrix_single_wire"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.tier_9__uhv.subtitle0}"]
+	title: "{ftbquests.chapter.tier_9__uhv.title}"
+}

@@ -1,0 +1,12 @@
+{
+	id: "3760272466136703"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 256, item: "xtonesreworked:xtone_tile" }
+		{ count: 256, item: "framedblocks:framed_cube" }
+		{ count: 256, item: "simplylight:edge_light" }
+		{ count: 256, item: "simplylight:lightbulb" }
+	]
+	title: "{ftbquests.loot_table.3990232307135112963.title}"
+}

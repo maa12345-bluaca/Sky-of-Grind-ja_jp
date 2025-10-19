@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "crazy_ae"
+	group: "457C1F56243DA4F7"
+	id: "714D7EAE63401244"
+	order_index: 4
+	quest_links: [{
+		id: "2F84BC27ECC0B375"
+		linked_quest: "7CC9AEC1E514D0DE"
+		shape: "square"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["7CC9AEC1E514D0DE"]
+			description: [
+				"{ftbquests.chapter.crazy_ae.quest5859560626623655968.description1}"
+				"{ftbquests.chapter.crazy_ae.quest5859560626623655968.description2}"
+			]
+			id: "5151575839C4B020"
+			tasks: [{
+				id: "2676C73E0A5F0355"
+				title: "{ftbquests.chapter.crazy_ae.quest5859560626623655968.task.2771621689969017685.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CC9AEC1E514D0DE"]
+			description: [
+				"{ftbquests.chapter.crazy_ae.quest2689074629510074181.description1}"
+				"{ftbquests.chapter.crazy_ae.quest2689074629510074181.description2}"
+			]
+			id: "25518320D2768F45"
+			subtitle: "{ftbquests.chapter.crazy_ae.quest2689074629510074181.subtitle}"
+			tasks: [
+				{
+					id: "312E52DD65A65BFD"
+					item: "crazyae2addons:crazy_pattern_modifier"
+					type: "item"
+				}
+				{
+					id: "0CD4A1E0B84DBD53"
+					item: "crazyae2addons:circuit_upgrade_card"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.crazy_ae.quest2689074629510074181.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CC9AEC1E514D0DE"]
+			description: ["{ftbquests.chapter.crazy_ae.quest8723533788937914853.description1}"]
+			id: "791037C303C309E5"
+			tasks: [{
+				id: "6EE422E55AF19766"
+				item: "crazyae2addons:crazy_pattern_multiplier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CC9AEC1E514D0DE"]
+			id: "1AC9762575C4747B"
+			tasks: [{
+				id: "68318FC4BA135258"
+				item: { Count: 64, id: "crazyae2addons:round_robin_item_p2p_tunnel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CC9AEC1E514D0DE"]
+			id: "7D7E4C741E7A3E9D"
+			tasks: [{
+				id: "11B199D530844F32"
+				item: "crazyae2addons:nbt_export_bus"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	title: "{ftbquests.chapter.crazy_ae.title}"
+}

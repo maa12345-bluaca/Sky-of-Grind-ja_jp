@@ -1,0 +1,1585 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "tier_1__lv"
+	group: "6B3EFCC5BFD49997"
+	icon: "gtceu:steel_ingot"
+	id: "6E7CD50F36B93B23"
+	order_index: 3
+	quest_links: [{
+		id: "58F436B0F7715D16"
+		linked_quest: "2DA0003222D48B72"
+		shape: "rsquare"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["2DA0003222D48B72"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest1634628640377654622.description1}"]
+			id: "16AF5E167963CD5E"
+			rewards: [{
+				id: "496C2BDBD139BC6D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DD98A90ED041780"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16AF5E167963CD5E"]
+			id: "600C9FE63DAFB132"
+			rewards: [{
+				count: 3
+				id: "3BACB6C9B9DEF466"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest6921082538587828530.subtitle}"
+			tasks: [{
+				id: "4E3E6856088293C7"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["600C9FE63DAFB132"]
+			id: "6E94AF58326AAA04"
+			rewards: [{
+				id: "08784129FBDA85E1"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest7968186434063084036.subtitle}"
+			tasks: [{
+				id: "3F168CF6D46C9BDB"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["600C9FE63DAFB132"]
+			id: "0CF36E87847B173E"
+			rewards: [{
+				id: "6026D21C7BDC0F36"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest933211076118124350.subtitle}"
+			tasks: [{
+				id: "40E46E9FF8CAE172"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["600C9FE63DAFB132"]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest4317123082223200501.description1}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest4317123082223200501.description2}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest4317123082223200501.description3}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest4317123082223200501.description4}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest4317123082223200501.description5}"
+			]
+			icon: "gtceu:bronze_large_boiler"
+			id: "3BE98091F78DA8F5"
+			optional: true
+			rewards: [{
+				id: "32FB62408AF927AA"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest4317123082223200501.subtitle}"
+			tasks: [
+				{
+					id: "48AF3E6A403A3C6D"
+					item: "gtceu:bronze_large_boiler"
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "7B83A0D4ACA390B3"
+					item: { Count: 23, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0CE24B10B2347002"
+					item: { Count: 2, id: "gtceu:bronze_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1DBF6BD783131C3B"
+					item: { Count: 5, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["600C9FE63DAFB132"]
+			id: "780137604FB5DEC9"
+			rewards: [{
+				id: "6BE47C9D9BC79CE2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest8647253646321770185.subtitle}"
+			tasks: [
+				{
+					id: "36E1A5850CCDF01D"
+					item: "gtceu:lv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "5E64F124B62DC25D"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "12C287765290C8AD"
+					item: "gtceu:lv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "63178F82EDF2464E"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "11D7677025B56638"
+					item: "gtceu:lv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_1__lv.quest8647253646321770185.title}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["600C9FE63DAFB132"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest7131841601752577366.description1}"]
+			id: "62F9642692D0B556"
+			rewards: [{
+				id: "77529765B3DA9738"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E374A2DC9A2D41C"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["600C9FE63DAFB132"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest5662492271797166275.description1}"]
+			id: "4E9536B853DD60C3"
+			rewards: [{
+				id: "66CAABCF0F21209A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest5662492271797166275.subtitle}"
+			tasks: [{
+				id: "69BBCC17931AD8FA"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["600C9FE63DAFB132"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest2327674544697452740.description1}"]
+			id: "204D8FAA756928C4"
+			rewards: [{
+				id: "17A36A3ACC1D420F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52A5BCFCB3EE611A"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["780137604FB5DEC9"]
+			id: "0125B5F913B6C59A"
+			rewards: [{
+				id: "059688C0F70624C6"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7219EF0855006082"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"204D8FAA756928C4"
+				"0125B5F913B6C59A"
+			]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest4926791095035921964.description1}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest4926791095035921964.description2}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest4926791095035921964.description3}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest4926791095035921964.description4}"
+				""
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest4926791095035921964.description5}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest4926791095035921964.description6}"
+			]
+			id: "445F7A65CE2C862C"
+			rewards: [{
+				id: "39389109D06A3F23"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest4926791095035921964.subtitle}"
+			tasks: [{
+				id: "6A630D786245654A"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"445F7A65CE2C862C"
+				"4E9536B853DD60C3"
+			]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest1292947602347109586.description1}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest1292947602347109586.description2}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest1292947602347109586.description3}"
+			]
+			icon: "gtceu:raw_diamond"
+			id: "11F178FE7717ACD2"
+			rewards: [{
+				count: 3
+				id: "7A60190598AF288C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest1292947602347109586.subtitle}"
+			tasks: [
+				{
+					id: "580DB98E8007DA61"
+					item: "gtceu:raw_lead"
+					type: "item"
+				}
+				{
+					id: "1134D3C878D3E9BB"
+					item: "gtceu:annealed_copper_ingot"
+					type: "item"
+				}
+				{
+					id: "47DC2EBE37B368C7"
+					item: "gtceu:raw_diamond"
+					type: "item"
+				}
+				{
+					id: "4DF2409FA59DE998"
+					item: "gtceu:raw_silver"
+					type: "item"
+				}
+				{
+					id: "34950CBC0445E169"
+					item: "gtceu:raw_sphalerite"
+					type: "item"
+				}
+				{
+					id: "13CB672A5EEF5CF5"
+					item: "gtceu:raw_lapis"
+					type: "item"
+				}
+				{
+					id: "1DD0919E403F6964"
+					item: "gtceu:raw_nether_quartz"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_1__lv.quest1292947602347109586.title}"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["204D8FAA756928C4"]
+			id: "00BC9AD9CBE396BA"
+			rewards: [{
+				id: "6460FCEA133E4F52"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "061A37326D7D7B4D"
+				item: "gtceu:nitrogen_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"00BC9AD9CBE396BA"
+				"4E9536B853DD60C3"
+			]
+			icon: "gtceu:sapphire_gem"
+			id: "3FD3DAFB0B6EB3ED"
+			rewards: [{
+				id: "19859781788BAB3D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6861C8442728E3E4"
+					item: "gtceu:raw_quartzite"
+					type: "item"
+				}
+				{
+					id: "09F0708CA66A57E1"
+					item: "gtceu:raw_nickel"
+					type: "item"
+				}
+				{
+					id: "1079E90A38C77E53"
+					item: "gtceu:sapphire_gem"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_1__lv.quest4599260416238859245.title}"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3FD3DAFB0B6EB3ED"
+				"46E3805ECF59FA5A"
+			]
+			id: "1A52FCAE5F1AB7A8"
+			rewards: [{
+				id: "4137C83EA35A8B0F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BBC8409AC5516F8"
+					item: "gtceu:lv_sensor"
+					type: "item"
+				}
+				{
+					id: "7850157F45000A05"
+					item: "gtceu:lv_emitter"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_1__lv.quest1896856218926495656.title}"
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["780137604FB5DEC9"]
+			id: "5E616BF4128429D8"
+			rewards: [{
+				id: "161D477658DDD00D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A4CE4831DE0CB4D"
+				item: "gtceu:lv_alloy_smelter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5E616BF4128429D8"]
+			id: "46E3805ECF59FA5A"
+			rewards: [{
+				id: "78DD890C995DE9E8"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EE5A72804C0AFB7"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tier_1__lv.quest5108067547062336090.title}"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5E616BF4128429D8"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest991292890426430379.description1}"]
+			id: "0DC1C7A1BA3CD3AB"
+			rewards: [{
+				id: "633A7A231078084D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2808FEEED65BC0B7"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0DC1C7A1BA3CD3AB"
+				"040E4BD75ABC15DD"
+			]
+			description: ["{ftbquests.chapter.tier_1__lv.quest5799588804978750096.description1}"]
+			icon: "gtceu:electric_blast_furnace"
+			id: "507C474A64173290"
+			rewards: [
+				{
+					count: 5
+					id: "146AB42085F20077"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+				{
+					id: "4F3A850440AD3B78"
+					item: {
+						Count: 1
+						id: "trophymanager:trophy"
+						tag: {
+							BaseBlock: "minecraft:smooth_stone_slab"
+							Name: "First EBF"
+							OffsetY: 0.55d
+							Scale: 0.75d
+							TrophyItem: {
+								Count: 1.0d
+								id: "gtceu:electric_blast_furnace"
+							}
+							TrophyType: "item"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest5799588804978750096.subtitle}"
+			tasks: [
+				{
+					id: "362450CC6A09DF16"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7ACDC6009C1F60EF"
+					item: { Count: 9, id: "gtceu:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "544F8B82EBFDC4B5"
+					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5E616BF4128429D8"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest2879720526629893245.description1}"]
+			id: "27F6D28FC22CF47D"
+			rewards: [{
+				id: "60ADF1B5CE31F06D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "541A375A8056F637"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["780137604FB5DEC9"]
+			id: "2623D3499562BDA7"
+			rewards: [{
+				id: "51898479356C928E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BB9EE88EC681423"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5E616BF4128429D8"]
+			id: "10A196BA81DCE9FF"
+			rewards: [{
+				id: "78CA63824692422F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "382DBC7320A8E3C1"
+				item: "gtceu:tin_alloy_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"10A196BA81DCE9FF"
+				"2623D3499562BDA7"
+				"27F6D28FC22CF47D"
+			]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest292254414137988573.description1}"
+				"{ftbquests.chapter.tier_1__lv.quest292254414137988573.description2}"
+			]
+			id: "040E4BD75ABC15DD"
+			rewards: [{
+				id: "2480B37207ADD34C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "299294B9AB4A93C9"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"507C474A64173290"
+				"3A121AF19BE3A6E4"
+				"5A9747B96C3219CC"
+			]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest1177683416115425573.description1}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest1177683416115425573.description2}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest1177683416115425573.description3}"
+			]
+			id: "1057F8D3CB6DB125"
+			rewards: [{
+				id: "2B173679963409D7"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest1177683416115425573.subtitle}"
+			tasks: [{
+				id: "226649862B80E7A2"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5E41736C950E9C4F"]
+			id: "3A121AF19BE3A6E4"
+			rewards: [{
+				id: "2F0B2C590F7C2AFD"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5BEB7FD03445D23A"
+				item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3FD3DAFB0B6EB3ED"
+				"7CCA83876C2A61BB"
+			]
+			id: "3BE5759C7FFEF529"
+			rewards: [{
+				id: "5298FCF562AE7275"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "51CAD50B3D901793"
+				item: { Count: 5, id: "gtceu:sapphire_dust" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["780137604FB5DEC9"]
+			id: "7CCA83876C2A61BB"
+			rewards: [{
+				id: "443DB3700E493A5B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "191CA32E4C2912C1"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3BE5759C7FFEF529"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest6527765046606567884.description1}"]
+			id: "5A9747B96C3219CC"
+			rewards: [{
+				id: "7C1804305274FD7F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2010EEB4AF2ED389"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0125B5F913B6C59A"
+				"62F9642692D0B556"
+			]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest6244243225688283847.description1}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest6244243225688283847.description2}"
+			]
+			id: "56A802215E4A1AC7"
+			rewards: [{
+				id: "764A98F4A675BA42"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "739D00C9BCEAFD06"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["56A802215E4A1AC7"]
+			id: "3E565050BADBB2FD"
+			rewards: [{
+				id: "2728C22BF372DEE8"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16B86C95C3B46A23"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0125B5F913B6C59A"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest7951308426292702861.description1}"]
+			id: "6E58B8E2C8BF2E8D"
+			rewards: [{
+				id: "03420D337E23514F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "36A0AE42A9CEB2A2"
+				item: { Count: 2, id: "gtceu:cobaltite_dust" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"6E58B8E2C8BF2E8D"
+				"507C474A64173290"
+			]
+			id: "5EC7144AEC633B0F"
+			rewards: [{
+				id: "72322C215AE7E622"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest6829449671956708111.subtitle}"
+			tasks: [{
+				id: "492C96CF2DFEEFDD"
+				item: "gtceu:arsenic_trioxide_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["780137604FB5DEC9"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest5671329996721031536.description1}"]
+			id: "4EB49C9582930970"
+			rewards: [{
+				id: "247FA55EAFB880F2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6820DC81141340A0"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"4EB49C9582930970"
+				"5EC7144AEC633B0F"
+			]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest3936064342541796283.description1}"
+				"{ftbquests.chapter.tier_1__lv.quest3936064342541796283.description2}"
+			]
+			id: "369FB5AA564903BB"
+			rewards: [{
+				id: "560BA2C3FC93EB99"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest3936064342541796283.subtitle}"
+			tasks: [{
+				id: "58AADB8936ADA4A9"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0125B5F913B6C59A"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest5371886189079889286.description1}"]
+			id: "4A8CC60709EF0586"
+			rewards: [{
+				id: "3386968406CD1D6F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "12CECEE38A31B248"
+				item: { Count: 2, id: "gtceu:gallium_dust" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"369FB5AA564903BB"
+				"4A8CC60709EF0586"
+			]
+			id: "16AD964F16907184"
+			rewards: [{
+				id: "3BDF92ABB8DB2DD2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38450628F8DDAA30"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["16AD964F16907184"]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest1602596989617246950.description1}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest1602596989617246950.description2}"
+			]
+			id: "163D91789C3F12E6"
+			rewards: [{
+				id: "5AE08B8270203370"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "260D2992A3887ACF"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1057F8D3CB6DB125"
+				"163D91789C3F12E6"
+				"3E565050BADBB2FD"
+			]
+			description: ["{ftbquests.chapter.tier_1__lv.quest3406302995397264605.description1}"]
+			id: "2F459E86E600C4DD"
+			rewards: [{
+				count: 5
+				id: "10F2933BA383982C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3F85701DBAB8CB72"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2F459E86E600C4DD"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest4508380765527821611.description1}"]
+			id: "3E90FC6B797D4D2B"
+			rewards: [{
+				id: "1E77E7A82BBB6807"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest4508380765527821611.subtitle}"
+			tasks: [{
+				id: "3BAAC0BC3ECF7FF4"
+				item: "gtceu:mv_machine_casing"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5E616BF4128429D8"
+				"306C00A7AC8E6437"
+			]
+			id: "3F0C71A412C94C98"
+			rewards: [{
+				id: "1AE9F831B9A9B064"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest4543131073613745304.subtitle}"
+			tasks: [{
+				id: "1697CE57546F1EED"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tier_1__lv.quest4543131073613745304.title}"
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["62F9642692D0B556"]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest7352020037112608305.description1}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest7352020037112608305.description2}"
+			]
+			id: "66079F4565A6B631"
+			rewards: [{
+				count: 5
+				id: "1CC1532C633C5D85"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0FD4E2A341FB3716"
+					item: "hostilenetworks:prediction_matrix"
+					type: "item"
+				}
+				{
+					id: "4962907F6D0050BA"
+					item: "hostilenetworks:loot_fabricator"
+					type: "item"
+				}
+				{
+					id: "1B8C8E98E8982AF3"
+					item: "hostilenetworks:sim_chamber"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_1__lv.quest7352020037112608305.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66079F4565A6B631"]
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:squid"
+					}
+				}
+			}
+			id: "4F38FDE69E161339"
+			rewards: [{
+				id: "549FB3E610A68F36"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							data: 6
+							id: "hostilenetworks:squid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest5708591694628655929.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "39DCDEC5D16B34D8"
+					item: "hostilenetworks:prediction_matrix"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "1A61508FA7602D67"
+					item: { Count: 8, id: "gtceu:steel_plate" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "7A2EEA0B331C12F0"
+					item: { Count: 2, id: "gtceu:aluminium_dust" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "6637EF15587774D6"
+					item: { Count: 2, id: "gtceu:diode" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66079F4565A6B631"]
+			id: "696039828152042F"
+			rewards: [{
+				id: "5B6B272E6A94CFC3"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "273EE8B6A1926671"
+				item: { Count: 32, id: "minecraft:ink_sac" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["696039828152042F"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest3489164531459843127.description1}"]
+			id: "306C00A7AC8E6437"
+			rewards: [{
+				id: "6423F64514DBBB9F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "33CBCE4D2947CD08"
+				item: { Count: 4, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F0C71A412C94C98"]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest5706384438829731313.description1}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest5706384438829731313.description2}"
+			]
+			id: "4F312669D4434DF1"
+			rewards: [{
+				count: 2
+				id: "11C647B7DF47600C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21B64BBEC18BC6BC"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4F312669D4434DF1"]
+			id: "2A06152CD35AEB43"
+			rewards: [{
+				id: "04E371724192E895"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A2621A10551F944"
+				item: "enderio:redstone_alloy_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4F312669D4434DF1"]
+			id: "35BEC4D7A3A6B971"
+			rewards: [{
+				id: "56B668D1894C260D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20C1B6D3C8E4550B"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4F312669D4434DF1"]
+			id: "0CC37A2971DEEB69"
+			rewards: [{
+				id: "5B790917363F1D54"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77A9819DD0976DA4"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2A06152CD35AEB43"]
+			id: "400998B80287CE93"
+			rewards: [{
+				count: 3
+				id: "5AFDA398AC224F7E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "2BE7CBB61D035D93"
+				item: "enderio:redstone_conduit"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["35BEC4D7A3A6B971"]
+			id: "1E8BE05E017C47AE"
+			rewards: [{
+				count: 3
+				id: "052D377538BF8F6F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "009ADB75E52A20C2"
+				item: { Count: 16, id: "enderio:item_conduit" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0CC37A2971DEEB69"]
+			id: "0D91D32DEA66E74B"
+			rewards: [{
+				count: 3
+				id: "3DD889F4F649AF4E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest977794788275709771.subtitle}"
+			tasks: [{
+				count: 16L
+				id: "5CFE8C7A38E0453A"
+				item: { Count: 16, id: "enderio:energy_conduit" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["62F9642692D0B556"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest6152843772712036957.description1}"]
+			id: "55634ACFE6F9AA5D"
+			rewards: [{
+				id: "7063C06DF797BD20"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07A1A5A6E064CD25"
+				item: "storagenetwork:master"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tier_1__lv.quest6152843772712036957.title}"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["55634ACFE6F9AA5D"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest3794577591024264476.description1}"]
+			id: "34A90C36E9A8A51C"
+			rewards: [{
+				count: 3
+				id: "43830C4A6D16BB75"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CCD40F274167679"
+				item: "storagenetwork:request"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0CC37A2971DEEB69"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest285499048654040054.description1}"]
+			id: "03F64BDF42BC6BF6"
+			rewards: [{
+				id: "554AE83C9B3B417C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest285499048654040054.subtitle}"
+			tasks: [{
+				count: 4L
+				id: "6785135B00EE3241"
+				item: { Count: 4, id: "storagenetwork:kabel" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tier_1__lv.quest285499048654040054.title}"
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["55634ACFE6F9AA5D"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest1031409712283936829.description1}"]
+			id: "0E504DAB2E92683D"
+			rewards: [{
+				id: "338AB0A176BC378A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0445FAC514551351"
+				item: "storagenetwork:storage_kabel"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["600C9FE63DAFB132"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest6204845835795315946.description1}"]
+			id: "561C0A69B8A43CEA"
+			rewards: [{
+				id: "18E1E9F976CE2D09"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1572BAE1C4CA85CF"
+				item: "gtceu:lv_item_collector"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tier_1__lv.quest6204845835795315946.title}"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F312669D4434DF1"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest161897387213704351.description1}"]
+			id: "023F2CD0DEEFCC9F"
+			optional: true
+			rewards: [{
+				id: "4EB38AABFC7890EC"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest161897387213704351.subtitle}"
+			tasks: [{
+				id: "7F89DFB0A9D84CD6"
+				item: "enderio:copper_alloy_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4F312669D4434DF1"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest7411709549699383079.description1}"]
+			id: "66DBAE910833BF27"
+			optional: true
+			rewards: [{
+				id: "0FBF16D3774BB09E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest7411709549699383079.subtitle}"
+			tasks: [{
+				id: "6E249812D3204987"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4F312669D4434DF1"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest8206745361765864441.description1}"]
+			id: "71E4376CE22393F9"
+			optional: true
+			rewards: [{
+				id: "2DACDC38BC0651E6"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest8206745361765864441.subtitle}"
+			tasks: [{
+				id: "77AD478EF523DB59"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4F312669D4434DF1"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest3223212877021316228.description1}"]
+			id: "2CBB2708CA520484"
+			optional: true
+			rewards: [{
+				id: "666795D2EE9F52D8"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest3223212877021316228.subtitle}"
+			tasks: [{
+				id: "1C8A078DC899E3D8"
+				item: "enderio:end_steel_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F312669D4434DF1"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest3654603897979918642.description1}"]
+			id: "32B7C2E1DDD9D932"
+			optional: true
+			rewards: [{
+				id: "4BAF39995EBD75F7"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest3654603897979918642.subtitle}"
+			tasks: [{
+				id: "749432914D6F09DF"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66079F4565A6B631"]
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						data: 6
+						id: "hostilenetworks:spider"
+					}
+				}
+			}
+			id: "0718B686D7E82E27"
+			optional: true
+			rewards: [{
+				id: "34701CBF46512118"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							data: 6
+							id: "hostilenetworks:spider"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "10BA0B23E9644831"
+					item: { Count: 64, id: "minecraft:white_wool" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3B2B1333F9917712"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:circuits/lv)"
+						}
+					}
+					title: "{ftbquests.chapter.tier_1__lv.quest511359247970741799.task.4263522586187626258.title}"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0574FAFA800DBD49"
+					item: { Count: 64, id: "hostilenetworks:prediction_matrix" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "65FEDB66AEC300A8"
+					item: "hostilenetworks:overworld_prediction"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_1__lv.quest511359247970741799.title}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CCA83876C2A61BB"]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest90621595203392814.description1}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest90621595203392814.description2}"
+				"{ftbquests.chapter.tier_1__lv.quest90621595203392814.description3}"
+			]
+			id: "0141F3DC5713D52E"
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest90621595203392814.subtitle}"
+			tasks: [{
+				id: "09567F245E4DB5CD"
+				item: "gtceu:energized_superconductor_single_wire"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["11F178FE7717ACD2"]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest999974282594229382.description1}"
+				"{ftbquests.chapter.tier_1__lv.quest999974282594229382.description2}"
+				""
+				""
+				"{ftbquests.chapter.tier_1__lv.quest999974282594229382.description3}"
+			]
+			id: "0DE09F4FDA8E1C86"
+			size: 0.75d
+			tasks: [
+				{
+					id: "40AA9AA6AA269CAC"
+					item: "steamadditions:steam_separator"
+					type: "item"
+				}
+				{
+					id: "0145DAF3C13CF4EB"
+					item: "steamadditions:steam_foundry"
+					type: "item"
+				}
+				{
+					id: "25FEF891D8A90D28"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					id: "55BA84DEF6D07B33"
+					item: "gtceu:steam_oven"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_1__lv.quest999974282594229382.title}"
+			x: 5.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["11F178FE7717ACD2"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest8442857352813999250.description1}"]
+			icon: "ulvcovm:ulv_electric_pump"
+			id: "752B0E07BBC5F492"
+			tasks: [
+				{
+					id: "75917B4AEB1EE939"
+					item: "ulvcovm:ulv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "0DF6B995A6B4E9D7"
+					item: "ulvcovm:ulv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "002F18D7E95AC7CF"
+					item: "ulvcovm:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "76A45DAA8EC7709C"
+					item: "ulvcovm:ulv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "01F44F62217B80C6"
+					item: "ulvcovm:ulv_electric_motor"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_1__lv.quest8442857352813999250.title}"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["11F178FE7717ACD2"]
+			description: [
+				"{ftbquests.chapter.tier_1__lv.quest1530856908824450470.description1}"
+				""
+				"{ftbquests.chapter.tier_1__lv.quest1530856908824450470.description2}"
+			]
+			id: "153EB23F6C6F15A6"
+			rewards: [{
+				id: "2CB0F69D9BB26CD7"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "{ftbquests.chapter.tier_1__lv.quest1530856908824450470.subtitle}"
+			tasks: [{
+				id: "53522B0315B58686"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: 4.875d
+			y: 4.125d
+		}
+		{
+			dependencies: ["62F9642692D0B556"]
+			description: ["{ftbquests.chapter.tier_1__lv.quest6791836623245843535.description1}"]
+			hide_dependency_lines: true
+			id: "5E41736C950E9C4F"
+			tasks: [{
+				id: "25DB808D6FD446D6"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.tier_1__lv.subtitle0}"]
+	title: "{ftbquests.chapter.tier_1__lv.title}"
+}

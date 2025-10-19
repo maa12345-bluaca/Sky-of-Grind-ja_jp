@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "457C1F56243DA4F7"
+	icon: "gtceu:wetware_processor_mainframe"
+	id: "326CFB175632AE85"
+	images: [
+		{
+			height: 1.0d
+			image: "gtceu:item/wetware_processor_computer"
+			rotation: 0.0d
+			width: 0.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:item/dimensional_processor_mainframe"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Hello! This is Sky of Grind, a skyblock GregTech pack that features a modified progression from ULV/Steam to &cMAX&r voltage tier."
+				""
+				"We've taken a lot of inspiration from a lot of packs like Nomifactory, GT:NH, Technological Journey, etc., so thanks a lot to the pack devs that made those packs! :D"
+				""
+				"Good luck while playing this!"
+				"And remember, batch crafting for the win."
+			]
+			id: "1A52D8228618C9FF"
+			tasks: [{
+				id: "329E57E0370473F4"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Pack mainly developed by: "
+				""
+				"&l&oEzLych(RianGomita)&r&r "
+				"&l&oMRXD72&r&r"
+				""
+				"Supporters and Betatesters:"
+				""
+				"&l&oIMANOL&r&r"
+				"&l&oAlex&r&r"
+				"&l&oLpo123xd&r"
+				"&l&oRaul2308ir&r"
+				""
+				"KubeJS helpers:"
+				""
+				"&o&lElRadRatz&r"
+				""
+				"Textures: "
+				""
+				"&lThanks to Diatonius1 &rfor helping us as an artist for the pack."
+				"&lThanks to WithersChat &rfor helping us with texturing and other help. (All the Infinity Material Set Items.)"
+				"&lThanks to Jamiscus&r for the heavy plating textures."
+				"&lThanks to Cosmic Frontiers, Cosmic Core. &rSome Casings textures and code come straight from that, modified. But still all the credit goes to there!"
+				""
+				"{@pagebreak}"
+				""
+				"Advancements:"
+				""
+				"&aFirst wiremill:&r"
+				"&lLpo123xd&r"
+				"&aFirst to reach the Moon:&r"
+				"&lHydrogoat&r"
+			]
+			id: "09CD8FF298B0532C"
+			tasks: [{
+				id: "057F222A0890753F"
+				title: "Credits"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	title: "Welcome"
+}

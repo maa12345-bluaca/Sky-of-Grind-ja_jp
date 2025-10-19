@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "multiblocking"
+	group: "457C1F56243DA4F7"
+	icon: "gtceu:electric_blast_furnace"
+	id: "59A35A8787463EF9"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Multiblocks can wallshare."
+				""
+				"Yes, this is an insanely useful feature. You can make a quad EBF or an octo EBF to \"parallelize\" recipes and save space."
+				"Just keep in mind, you are not able to wallshare maintenance matches and, in some cases, muffler hatches."
+				""
+				"This is, for example, how you would set up coils a quad EBF (top view):"
+				""
+				"⏹︎⏹︎⏹︎⏹︎⏹︎"
+				"⏹︎    ⏹︎    ⏹︎"
+				"⏹︎⏹︎⏹︎⏹︎⏹︎"
+				"⏹︎    ︎⏹︎    ︎⏹︎"
+				"⏹︎⏹︎⏹︎⏹︎⏹︎"
+				"︎"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "24BAB89DA768CAFC"
+			tasks: [{
+				id: "6848F391466096BB"
+				title: "Multiblock Wallsharing"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"You can rotate nearly &lany&r multiblocks on the game."
+				""
+				"Make cursed setups like quad upside down EBFs or just simply use it to save space with things like vertical assembly lines."
+			]
+			id: "7DF8B9DB4C0EAF24"
+			tasks: [{
+				id: "778B4B8C60F5A5E4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/wrenches)"
+					}
+				}
+				title: "Any #forge:tools/wrenches"
+				type: "item"
+			}]
+			title: "Rotating Multiblocks"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			description: ["In GregTech, all the energy/dynamo hatches of EV tier and above can \"overclock\" to use more amps than two."]
+			id: "677BE653DAE16978"
+			tasks: [{
+				id: "598C6005417C20D6"
+				item: "gtceu:ev_energy_input_hatch_16a"
+				type: "item"
+			}]
+			title: "High-Amps Energy Hatches"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The terminal is probably the most useful item in GT."
+				"If you've played other gregtech packs like GT:NH you will know there is things like the Hologram Projector to autobuild multiblocks."
+				""
+				"In GTCeu Modern there is the Terminal."
+				"With shift + right-click in the controller you will be able to autobuild the multiblock."
+				"Note: Don't have hatches in your inventory when using this, they are kinda buggy with the terminal and will be placed in usual places."
+				""
+				"You can also shift + right-click the multiblock controller with an empty hand to show a hologram of it."
+			]
+			id: "755C2808CF7FBA7E"
+			tasks: [{
+				id: "485758771D3DF096"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			title: "Multiblock Auto-placer"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: ["The power substation is the best GT battery multiblock, it's a simple structure, that can be expanded and filled with any type of battery. You can stack layers of batteries, so you can have up to 36x ultimate batteries in one substation!"]
+			id: "4378E2D39FD5C808"
+			subtitle: "The best battery"
+			tasks: [{
+				id: "09085639DE089E30"
+				item: "gtceu:power_substation"
+				type: "item"
+			}]
+			title: "Power Substation and power!"
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	title: "Multiblocking"
+}

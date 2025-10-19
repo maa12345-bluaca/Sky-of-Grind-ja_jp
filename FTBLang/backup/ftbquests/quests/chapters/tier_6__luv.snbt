@@ -1,0 +1,1644 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "tier_6__luv"
+	group: "6B3EFCC5BFD49997"
+	icon: "gtceu:rhodium_plated_palladium_ingot"
+	id: "311560F720092C21"
+	order_index: 8
+	quest_links: [{
+		id: "09981C4CF189C241"
+		linked_quest: "34112DEEBBD82652"
+		shape: "octagon"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["34112DEEBBD82652"]
+			description: [
+				"But wait, before you quit."
+				" This is a gregified Blood Magic, you will not go to the hidden realm."
+				""
+				"And you will produce life essence on gregtech machines aswell as altar tiers as multiblock machines."
+			]
+			id: "70DAF76189CCF436"
+			rewards: [
+				{
+					id: "610F584F5BA9C0CC"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0CF6196378A5E4BC"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Kinda"
+			tasks: [{
+				id: "574E18E668E81408"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "Magic?"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70DAF76189CCF436"]
+			id: "2D5284308602B3BF"
+			rewards: [{
+				id: "59073AD2D65B0196"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2690F4DB3911DF41"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "4FA85C371E249DB4"
+			rewards: [{
+				id: "48BF12D89E012B3E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "071FB8E848263117"
+				item: "gtceu:raw_life_essence_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FA85C371E249DB4"]
+			id: "429C5E9C7BFA13A2"
+			rewards: [{
+				id: "0D2EC1DAB618F25A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E8827C037B10A4E"
+				item: "gtceu:inert_life_essence_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["429C5E9C7BFA13A2"]
+			id: "3CF4824CD240EAAD"
+			rewards: [{
+				id: "593CAE209E1D5384"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4483AB68DB4E2889"
+				item: "gtceu:processed_life_essence_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2D5284308602B3BF"
+				"3CF4824CD240EAAD"
+			]
+			id: "3D1EF01ABFFD8CA8"
+			rewards: [{
+				id: "10E56E1709C31DAB"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2492481A004D3316"
+				item: "bloodmagic:life_essence_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2D5284308602B3BF"]
+			description: [
+				"The first  gregified blood magic multiblock."
+				""
+				"This this the altar 2 and it goes from this one to tier &46-MAX&r."
+				""
+				"Be prepared to make a lot of passive life essence lines as your gonna use a lot of it."
+			]
+			id: "25E32E94539AD790"
+			rewards: [{
+				id: "2C2799D97C09A017"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "735925E0033F8ABB"
+				item: "gtceu:altart2"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25E32E94539AD790"]
+			id: "21ACAFF65D3C1D9E"
+			rewards: [{
+				id: "0E55A7B002E3E5ED"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "517AFC3253845A3D"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25E32E94539AD790"]
+			id: "0662854DA4BB1992"
+			rewards: [{
+				id: "3E4F4E344D92F47D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B91486C4DCA5060"
+				item: "bloodmagic:largebloodstonebrick"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"21ACAFF65D3C1D9E"
+				"0662854DA4BB1992"
+			]
+			id: "545751E4174E83B7"
+			rewards: [{
+				count: 2
+				id: "54337A46D552DDD2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DA65817CDC35D94"
+				item: "gtceu:altart3"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["34112DEEBBD82652"]
+			description: ["So ik you technically dont need the luv casing but you do need Pozole and the only use for it is right now sooo..."]
+			id: "15C6B402D2CA221E"
+			rewards: [{
+				id: "5D5ED18CECE8EF38"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "039DE97E3EEB6A88"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C6B402D2CA221E"]
+			id: "2967F1BE77BC7D35"
+			rewards: [{
+				id: "35A0A7B0F2ECCD75"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E9CEA9F41B7641E"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2967F1BE77BC7D35"]
+			description: ["You get 2 crystaltine ingots per nether star."]
+			id: "5DBDBDC74AE2C5C7"
+			rewards: [{
+				id: "742212332A7F563B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "756A0D703AE04B72"
+				item: "extendedcrafting:crystaltine_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5DBDBDC74AE2C5C7"
+				"545751E4174E83B7"
+			]
+			description: [
+				"&n1 nether star = 4 hellforged blocks&r"
+				""
+				"You will need a LOT of this cool block, so consider maybe making like 10 star extractors just for this."
+				""
+				"You need like 400 blocks for the tier MAX altar and if you wanna summon meteorites with big numbers, you will need hellforged blocks."
+				""
+				"Also the higher the tier of the altar, is the fastest the recipe is done."
+			]
+			id: "4E7E9E3C0D2E77B3"
+			rewards: [{
+				id: "187B688E2298D8C2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31C4F377EE29F32F"
+				item: "bloodmagic:dungeon_metal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4E7E9E3C0D2E77B3"]
+			id: "60993AD55C1FE256"
+			rewards: [{
+				count: 3
+				id: "488AC5C2EC4F8049"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74C4E6B561365ACD"
+				item: "gtceu:altart4"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["60993AD55C1FE256"]
+			id: "71D1DF81A2426243"
+			rewards: [{
+				id: "202AA2DBE54C0490"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "You will need multiple of these"
+			tasks: [{
+				id: "574708973182082D"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"71D1DF81A2426243"
+				"60993AD55C1FE256"
+			]
+			id: "02888AAD173AEED0"
+			rewards: [{
+				id: "1C67CDE398F183B2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75E82967A1FA5194"
+				item: "bloodmagic:demoncrystallizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["02888AAD173AEED0"]
+			id: "282CE68698C0C23B"
+			rewards: [{
+				count: 4
+				id: "378E1A30970EFB8E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "This is the last one that can make hellforged blocks!!!"
+			tasks: [{
+				id: "5DF01C58D4FDDD26"
+				item: "gtceu:altart5"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"02888AAD173AEED0"
+				"282CE68698C0C23B"
+			]
+			hide_dependent_lines: true
+			id: "78B9144DB08C15E1"
+			rewards: [{
+				id: "073D24BBA2591350"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18FF2B1CACE67A1F"
+				item: "bloodmagic:demonpylon"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"78B9144DB08C15E1"
+				"282CE68698C0C23B"
+			]
+			id: "0FFD1907A9ADF583"
+			rewards: [{
+				count: 5
+				id: "002F89B9D293B322"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "1A451E528817BCAD"
+				item: "gtceu:altart6"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0FFD1907A9ADF583"]
+			description: [
+				"This is the first meteor that you will do, you need 2 IV energy hatches to overclock to LuV and 1 IV input hatch &lfull&r of life essence. We are talking about 256 B of life essence per meteor."
+				""
+				"The loot is:"
+				"- 256-512 raw apatite"
+				"- 256-512 raw pyrochlore"
+				"- 256-512 raw tricalcium phosphate"
+				"- 256-512 rare earth"
+				""
+				"You can centrifuge rare rarth for samarium."
+				""
+				"Remember to put the programmed circuit on 1."
+			]
+			icon: "gtceu:raw_pyrochlore"
+			id: "726067740279B03D"
+			rewards: [{
+				id: "62CC38C337919E64"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "1BE85132222AB4AE"
+					item: { Count: 64, id: "gtceu:raw_apatite" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1A079A1328B46451"
+					item: { Count: 64, id: "gtceu:raw_tricalcium_phosphate" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "442513CBFBF21549"
+					item: { Count: 64, id: "gtceu:raw_pyrochlore" }
+					type: "item"
+				}
+				{
+					id: "3A507446910E8FE9"
+					item: "gtceu:rare_earth_dust"
+					type: "item"
+				}
+			]
+			title: "First \"Meteor\" Invocation"
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["726067740279B03D"]
+			id: "3AE7599BEE9F30B8"
+			rewards: [{
+				id: "41E0FB18239CC36C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AB9744BD5BA1326"
+				item: "gtceu:niobium_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"34112DEEBBD82652"
+				"3AE7599BEE9F30B8"
+			]
+			id: "2F2D9E00D5C5C71A"
+			rewards: [{
+				id: "02EC2E8170C04D0D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "07B0759345F0E49E"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ED00FF67721EC44"]
+			id: "7BB6479B13DDD2F0"
+			rewards: [{
+				id: "07FD95E5ED516C3C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45382C7A044E3644"
+				item: "gtceu:luv_input_hatch"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"0FFD1907A9ADF583"
+				"7BB6479B13DDD2F0"
+			]
+			description: [
+				"After doing the first meteor you can summon a HUGE one by using a stack of hellforged blocks and the globe of the planet."
+				""
+				"You should really passive this if you wanna progress further."
+				"Each meteor gives from 500 to 4500 of the ore."
+				""
+				"However, this is not the endgame way of making resources. Oh boy, you are not prepared."
+				""
+				"Consider using bulk item cells (which can store an infinite amount of one item) for each ore your producing, else your AE2 system is gonna go boom."
+			]
+			icon: {
+				Count: 1
+				id: "megacells:bulk_item_cell"
+				tag: { }
+			}
+			id: "52064AFC1561236F"
+			rewards: [{
+				id: "3A36FB5419A870E4"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "Bulk item cells for the win."
+			tasks: [{
+				id: "6AEA8013E8641272"
+				title: "Massive Resources"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["52064AFC1561236F"]
+			description: [
+				"The Earth vein:"
+				"- 25 different ores;"
+				"- 100 B of oil;"
+				"- 50 B of natural gas;"
+				"- 2500 B of lava;"
+			]
+			id: "693962DB728137A9"
+			rewards: [{
+				id: "1E94C520CCBDCCC4"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A618087569E0F48"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["52064AFC1561236F"]
+			description: [
+				"The moon vein."
+				"Huge vein of titanium, nitrogen and desh."
+				""
+				"Contains 1000 titanium ingots in form of fluids."
+				"Contais from 500 to 4500 raw desh."
+				"Contais from 500 to 4500 rare earth dust."
+				""
+				"Liquids:"
+				""
+				"2500B of Nitrogen."
+				"50B of Helium."
+			]
+			id: "09740CD234AE9E63"
+			rewards: [{
+				id: "08D8B94DACD5AED0"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A712C5BB208962A"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["34112DEEBBD82652"]
+			description: [
+				"We are not gonna put the materials/blocks for this multiblock as it can be made of a lot of different sizes."
+				""
+				"But try to make as big as chunk and maybe thats gonna be enough."
+				""
+				"&c&lGuide on second page&r&r"
+				"{@pagebreak}"
+				"So, the assembly line can only use ULV input bus, so 1 input per block."
+				"But you need fluids aswell so for the automation of this i recommend using an ME inventory buffer with a pattern provider."
+				"Then just use conduits to move items and pipes for fluids (Or make a subnet :D)"
+			]
+			id: "16E29CFAB578CA9F"
+			rewards: [{
+				id: "0384A135398FC483"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EB07472194DCBB4"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"16E29CFAB578CA9F"
+				"7259B398051A257C"
+			]
+			description: [
+				"Most assembly line recipes require a thing called research, most people get confused by this but its kinda simple."
+				""
+				"The data sticks that you see on recipes are made on the Scanner. Which is a pretty simple machine, you scan an item/block and that data enters the stick."
+				"You will need to put the data stick in a data reception hatch. The most basic one supports upto 9 sticks, and you can only have 1 on the multiblock. But you will be able to upgrade it onto an advanced reception hatch soon enough."
+				""
+				"Second page!"
+				""
+				"{@pagebreak}"
+				""
+				"Later on you will upgrade into Optical and CWU (Which i think is computation data) That you will make by using computers and using on a research station. But we are not gonna dive into that so much because its on ZPM. "
+				""
+				"Just FYI, the Data Orbs are only made on a research station and the data sticks can only be used in the Scanner. So dont bother with them."
+			]
+			icon: "gtceu:iv_scanner"
+			id: "2308A0C52AFD7A2B"
+			rewards: [{
+				id: "1ED7DF1ABEC0512B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4EF4235FF2982EE7"
+					title: "Research"
+					type: "checkmark"
+				}
+				{
+					id: "1D07240DD97BCA1F"
+					item: "gtceu:iv_scanner"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34112DEEBBD82652"]
+			id: "1E845400EBBC973A"
+			rewards: [{
+				id: "0C6BFBA28EF1FE4F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70C715E425D38208"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E845400EBBC973A"]
+			id: "7259B398051A257C"
+			rewards: [{
+				id: "520C67FDCBC4E621"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "Your first data storage!"
+			tasks: [{
+				id: "00D1D5C43E6DEA6A"
+				item: {
+					Count: 1
+					id: "gtceu:data_stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2308A0C52AFD7A2B"
+				"2F2D9E00D5C5C71A"
+			]
+			icon: "gtceu:luv_electric_motor"
+			id: "3172CE3676E125EA"
+			rewards: [{
+				id: "2B935269B0E534F0"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "18248DFC2011C39E"
+					item: "gtceu:luv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "5EA69BB06A4B97ED"
+					item: "gtceu:luv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "42C3EC7519E592AA"
+					item: "gtceu:luv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "74711C660EE06891"
+					item: "gtceu:luv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "5B68E6D0EA004927"
+					item: "gtceu:luv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "Yeah, you like this."
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2308A0C52AFD7A2B"]
+			id: "6E6A5778FD8381A1"
+			rewards: [{
+				id: "30C6EE763B527FC8"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49902449E1E4FFF4"
+					item: "gtceu:luv_sensor"
+					type: "item"
+				}
+				{
+					id: "316756B5B96FCF64"
+					item: "gtceu:luv_emitter"
+					type: "item"
+				}
+			]
+			title: "Damn, I don't need anything weird?"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3172CE3676E125EA"]
+			id: "4ED00FF67721EC44"
+			rewards: [{
+				id: "48CD6D5961385999"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76B3DF3753C86678"
+				item: "gtceu:luv_assembler"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"4ED00FF67721EC44"
+				"09740CD234AE9E63"
+			]
+			description: [
+				"Have you not made osmiridium alloy yet? Crazy..."
+				""
+				"Now process 3000 rare earth into samarium."
+				""
+				"Yes, you need to passive the moon vein meteor."
+			]
+			id: "690A7FC1286BEA13"
+			rewards: [{
+				id: "1D580BEC94587953"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24F4DF69EF44B8E5"
+				item: "gtceu:luv_voltage_coil"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["690A7FC1286BEA13"]
+			description: [
+				"Please upgrade every EBF, every altar, every star extractor, EVERYTHING."
+				""
+				"We are entering the late game."
+			]
+			id: "215B14559169ADDA"
+			rewards: [{
+				id: "7A3A4448C87FB6CD"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "We overclocking to ZPM!"
+			tasks: [{
+				id: "31CB7C5485248A53"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3172CE3676E125EA"]
+			id: "3B396807AA6BEA57"
+			rewards: [{
+				id: "2D0EB93A86ABDF2A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B82B855C6B4F593"
+				item: "gtceu:luv_chemical_bath"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B396807AA6BEA57"]
+			id: "3BB595AB8D897991"
+			rewards: [{
+				id: "73A16BB7E4531FED"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5069F13DBB082524"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BB595AB8D897991"]
+			id: "0CB55F547C5605F8"
+			rewards: [{
+				id: "7593B702F463CBBE"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05A9F9644C2E589A"
+				item: "gtceu:fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0CB55F547C5605F8"]
+			hide_dependent_lines: true
+			id: "11CBAA4E5904D898"
+			rewards: [{
+				id: "2B0EBC69225C73E2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30BEA5FABA5226FD"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3172CE3676E125EA"]
+			id: "323E34C2A51B1D69"
+			rewards: [{
+				id: "4D416928702DC27A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25503288C0489C35"
+				item: "gtceu:luv_chemical_reactor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["323E34C2A51B1D69"]
+			description: ["Liquid gallium arsenide + quantum eyes."]
+			id: "51B04E513EABA115"
+			rewards: [{
+				id: "528A55C7D9B77002"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33328F9B1E0AA087"
+				item: "gtceu:qbit_cpu_wafer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E6A5778FD8381A1"]
+			id: "022EAEF191DF65C4"
+			rewards: [{
+				id: "71D2FC15AF220836"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C9B94B653B2249C"
+				item: "gtceu:luv_laser_engraver"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"022EAEF191DF65C4"
+				"51B04E513EABA115"
+			]
+			id: "7CC7585DA51DFA7A"
+			rewards: [{
+				id: "2BEA7F73D61700AF"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15382DF042937A4F"
+				item: "gtceu:qbit_cpu_chip"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1E845400EBBC973A"
+				"11CBAA4E5904D898"
+				"7CC7585DA51DFA7A"
+			]
+			id: "7D3A310D6263B649"
+			rewards: [{
+				id: "7DBB70DDC4A27F31"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BC40BB180F3592A"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			title: "Your last EV Circuit D:"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"11CBAA4E5904D898"
+				"7D3A310D6263B649"
+			]
+			id: "0E9D019742F12377"
+			rewards: [{
+				id: "4BB51894832F182B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32089F902B122C71"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"11CBAA4E5904D898"
+				"0E9D019742F12377"
+			]
+			id: "52D8C84D4C6E60AA"
+			rewards: [{
+				id: "6102C45BDE1C2E04"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6572EAB668A23D14"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["52D8C84D4C6E60AA"]
+			id: "7DBE783F04F59ABB"
+			rewards: [{
+				count: 3
+				id: "660586BDF09D4A7E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "163F241D030C5BE0"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			title: "ZPM Circuits!"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7DBE783F04F59ABB"
+				"2308A0C52AFD7A2B"
+			]
+			description: [
+				"Mars is a boring planet, lets be real."
+				"Now go mine for some ostrum to get the globe."
+			]
+			id: "5DFB4F932F44C748"
+			rewards: [
+				{
+					count: 3
+					id: "676F00229363D1CE"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+				{
+					id: "223C6BE6CBA02C7F"
+					item: {
+						Count: 1
+						id: "trophymanager:trophy"
+						tag: {
+							BaseBlock: "ae2:smooth_sky_stone_slab"
+							Name: "Tier 2 Rocket"
+							OffsetY: 0.75d
+							Scale: 3
+							TrophyItem: {
+								Count: 1.0d
+								id: "ad_astra:tier_2_rocket"
+							}
+							TrophyType: "item"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "29E53BF09A067880"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"52064AFC1561236F"
+				"5DFB4F932F44C748"
+			]
+			description: [
+				""
+				""
+				"Massive Naquadah and Ostrum."
+				""
+				"Naquada line when?"
+			]
+			id: "677D8768414A9814"
+			rewards: [{
+				id: "18B165A336948CB7"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CBC16FB78C4F25B"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["677D8768414A9814"]
+			id: "280D88ECFC490021"
+			optional: true
+			rewards: [{
+				id: "22FC37E0861BD716"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3366AD236AE86253"
+				item: "gtceu:luv_chemical_reactor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["45622072F0EF423F"]
+			id: "5A901F344704292D"
+			rewards: [{
+				id: "6CDA1E317AFDB34D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54EEEA2D46D5FFDA"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["5A901F344704292D"]
+			id: "37B3F95E495D05A8"
+			rewards: [{
+				id: "2F10DA0CB278C0ED"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "165D9C7C5EC5128A"
+				item: "gtceu:fluoroantimonic_acid_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["37B3F95E495D05A8"]
+			id: "2F41BD52FA527EC1"
+			rewards: [{
+				id: "01DFFE3880DB1EC1"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "LCR only"
+			tasks: [{
+				id: "34D6BAD8D542585F"
+				item: "gtceu:impure_enriched_naquadah_solution_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["37B3F95E495D05A8"]
+			id: "703F021AA20886F4"
+			rewards: [{
+				id: "424BB570835DA078"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "LCR only"
+			tasks: [{
+				id: "24AF6E82498774BE"
+				item: "gtceu:impure_naquadria_solution_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"2F41BD52FA527EC1"
+				"703F021AA20886F4"
+			]
+			id: "1554884EF9FACAA4"
+			optional: true
+			rewards: [{
+				id: "2E2B407512938D48"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D2A230C057A16BF"
+				item: "gtceu:luv_centrifuge"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["1554884EF9FACAA4"]
+			id: "166C9E7FE49E0577"
+			rewards: [{
+				id: "3FECA8BB5E01C666"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52478F3E5D8FEAC2"
+				item: "gtceu:naquadria_solution_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["1554884EF9FACAA4"]
+			id: "087BC70C05773A28"
+			rewards: [{
+				id: "487216F5699CDAB1"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "649ED187812FC959"
+				item: "gtceu:enriched_naquadah_solution_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1554884EF9FACAA4"]
+			description: ["Chemically react this with calcium to get some indium, 'cause why not?"]
+			id: "6CEBD79E3B2E7AC9"
+			rewards: [{
+				id: "34F9D9DF94E1D265"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "569EA5532D4E22B6"
+				item: "gtceu:indium_phosphide_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1554884EF9FACAA4"]
+			description: ["The only way of getting trinium."]
+			id: "6D5D1CBC7C5935A1"
+			rewards: [{
+				id: "00BB9F4CEB8C240F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AE2AACF72DB9A7D"
+				item: "gtceu:trinium_sulfide_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["280D88ECFC490021"]
+			id: "45622072F0EF423F"
+			rewards: [{
+				id: "65CD4540C87B2869"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64DF4BF7A27A82C7"
+				title: "Naquadah Line"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"677D8768414A9814"
+				"5F5E81D5E0BDCBFA"
+			]
+			id: "2171C5A8CDA9BE3C"
+			rewards: [{
+				id: "15EE0974E2004273"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "Another EBF upgrade"
+			tasks: [{
+				count: 16L
+				id: "7FFD415D4EB742DF"
+				item: { Count: 16, id: "gtceu:naquadah_coil_block" }
+				type: "item"
+			}]
+			title: "Naquadah Coil Block"
+			x: 3.0d
+			y: 23.5d
+		}
+		{
+			dependencies: [
+				"2171C5A8CDA9BE3C"
+				"6D5D1CBC7C5935A1"
+			]
+			id: "426DFA355636395B"
+			rewards: [{
+				id: "70CBBF81D40B33A9"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5918C90D59A1A519"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["426DFA355636395B"]
+			description: ["Naquadah alloy is a bunch of naqline and platline components mashed together."]
+			id: "75FA405DB766F717"
+			rewards: [{
+				id: "7BE28B4E9EC36CD3"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69F052DDAC575169"
+				item: "gtceu:naquadah_alloy_dust"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["75FA405DB766F717"]
+			description: ["Main ZPM material!"]
+			id: "6F79E43AC15B3D22"
+			rewards: [{
+				id: "01F6CA880E33D136"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25C3CE61EB3565EE"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["6F79E43AC15B3D22"]
+			description: [
+				"Congrats on reaching this point."
+				""
+				"Are you having fun?"
+			]
+			id: "5C47B681BACC22D4"
+			rewards: [{
+				count: 2
+				id: "331B0C2C0826260E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "But have you finished the naquadah line?"
+			tasks: [{
+				id: "46750707EE6A53D0"
+				item: "gtceu:zpm_machine_casing"
+				type: "item"
+			}]
+			title: "Welcome to ZPM"
+			x: 20.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["166C9E7FE49E0577"]
+			id: "4543B6C470336195"
+			rewards: [{
+				id: "1D65F3BA208E7920"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "565C2DA67BA884ED"
+				item: "gtceu:acidic_naquadria_solution_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4543B6C470336195"]
+			description: [
+				"Finally, naquadria!"
+				"Have you done enriched naquadah?"
+				""
+				"Now, right now you currently don't have access to make it into a typical ingot, as you need the ZPM assembler to make the trinium coils, but you should still do this to future-proof."
+			]
+			icon: "gtceu:naquadria_sulfate_dust"
+			id: "086F05947A60D81B"
+			rewards: [{
+				id: "419636A9D05AA484"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3AE6484274206EB8"
+					item: "gtceu:naquadria_sulfate_dust"
+					type: "item"
+				}
+				{
+					id: "6A009A1D63830180"
+					item: "gtceu:naquadria_waste_bucket"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["087BC70C05773A28"]
+			id: "66D8BE1DA55F4428"
+			rewards: [{
+				id: "16EBE4F23EA6B6BA"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72535DDEDD53A896"
+				item: "gtceu:acidic_enriched_naquadah_solution_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["66D8BE1DA55F4428"]
+			icon: "gtceu:enriched_naquadah_sulfate_dust"
+			id: "4D3720D39E4DE5BF"
+			rewards: [{
+				id: "36FFE20ED479627D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "608030CF3C18F377"
+					item: "gtceu:enriched_naquadah_sulfate_dust"
+					type: "item"
+				}
+				{
+					id: "44695C27C4D3898E"
+					item: "gtceu:enriched_naquadah_waste_bucket"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4D3720D39E4DE5BF"]
+			id: "13FF0019F6DE6AFE"
+			rewards: [{
+				id: "384CE19BBB699F30"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E9E6351352C505C"
+				item: "gtceu:hot_enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["13FF0019F6DE6AFE"]
+			id: "49EC7260E8AACB05"
+			rewards: [{
+				count: 5
+				id: "2CBC727B3DEBD30E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E36AEC867BD50EE"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["677D8768414A9814"]
+			id: "72B3A5D58419F640"
+			rewards: [{
+				id: "534DCACA4422598A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BB03DA83660B099"
+				item: "gtceu:uhpic_wafer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"16E29CFAB578CA9F"
+				"3BB539619E06A099"
+			]
+			description: [
+				"wow. Another AE2 rabbit hole to do. "
+				""
+				"Prepare some 64k parts. "
+			]
+			id: "6C545D94F3FCE01A"
+			rewards: [{
+				id: "2574135B5EA32DCB"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EAA1D04E6A2749E"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C545D94F3FCE01A"]
+			description: [
+				"Automate this, you will a TON for UHV."
+				""
+				"Despite needing 256 buckets of a liquid or 256K items, you only need a 64K Storage Component to make these in the Matter Condenser."
+			]
+			id: "1258F9F4BC01511B"
+			rewards: [{
+				id: "466D756BC2B76A79"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BC002F42E4985CF"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1258F9F4BC01511B"]
+			description: [
+				"Autocrafting, very important, right?"
+				""
+				"Congrats, you unlocked a very BIG crafting storage, having 760+ co-processing unitsr and more than 2 GB of crafting storage."
+				"This is a whole new AE2 multiblock. "
+				""
+				"I recommend you check out the inside wiki."
+			]
+			id: "00E3A948DA789604"
+			rewards: [{
+				id: "7DC31BD315F1023F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17EBC04CE5DF2C54"
+				item: "advanced_ae:quantum_unit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F2D9E00D5C5C71A"]
+			id: "0057237E4D7E2241"
+			subtitle: "LuV tier Superconductor"
+			tasks: [{
+				id: "198B5DAD01255990"
+				item: "gtceu:heavy_duty_alloy_t2_single_wire"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["215B14559169ADDA"]
+			id: "27691D0A469C4AF9"
+			subtitle: "Save on TPS?"
+			tasks: [{
+				id: "78E4E5951E0ED386"
+				item: "gtceu:processing_plant"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["426DFA355636395B"]
+			id: "51C8C60CAC7B3665"
+			tasks: [{
+				id: "26E867609F95AF01"
+				item: "gtceu:chemical_plant"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 25.0d
+		}
+	]
+	subtitle: ["Ludicrous Voltage"]
+	title: "&#e68af2Tier 6 - LuV"
+}

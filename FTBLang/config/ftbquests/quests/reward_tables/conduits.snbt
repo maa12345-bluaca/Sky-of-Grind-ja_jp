@@ -1,0 +1,12 @@
+{
+	id: "3C58A763BBB06456"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 32, item: "enderio:energy_conduit" }
+		{ count: 32, item: "enderio:redstone_conduit" }
+		{ count: 32, item: "enderio:item_conduit" }
+		{ count: 32, item: "enderio:me_conduit" }
+	]
+	title: "{ftbquests.loot_table.4348409487018714198.title}"
+}

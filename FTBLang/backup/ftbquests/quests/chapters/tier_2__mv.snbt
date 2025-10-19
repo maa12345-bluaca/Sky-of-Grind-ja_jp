@@ -1,0 +1,1360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "tier_2__mv"
+	group: "6B3EFCC5BFD49997"
+	icon: "gtceu:aluminium_ingot"
+	id: "3E116EB5F1FFCA1D"
+	order_index: 4
+	quest_links: [{
+		id: "7ECFCA5F342015CD"
+		linked_quest: "3E90FC6B797D4D2B"
+		shape: "rsquare"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["3E90FC6B797D4D2B"]
+			id: "7D6C30089B9F8938"
+			rewards: [{
+				id: "59074BB5D956CB3B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ACAC7CAA7704307"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D6C30089B9F8938"]
+			icon: "gtceu:mv_electric_motor"
+			id: "089AB7F6D2A6E393"
+			rewards: [{
+				id: "5B725D7A74A9B14E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "106CD47A30B4D23A"
+					item: "gtceu:mv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "5A844197E86D2F49"
+					item: "gtceu:mv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "791833A980E4E5F6"
+					item: "gtceu:mv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "51AEB98944ADB9D8"
+					item: "gtceu:mv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "6D604F1B92DED539"
+					item: "gtceu:mv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "You will hate this on MV #1"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["089AB7F6D2A6E393"]
+			description: ["New machine, let's go gambling!"]
+			id: "1AF2494549817153"
+			rewards: [{
+				id: "01D89F44DA23E90A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A9649184E6E29D3"
+				item: "gtceu:mv_sifter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			description: ["[ \"If u are in need of power, or you want to stop using steam boilers, remember to check out the Power Generation \", { \"text\": \"chapter\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"416CD638E3291E16\" } }, \" to get some ideas.\" ]"]
+			icon: "gtceu:extreme_combustion_engine"
+			id: "42F251B36CF7E0CD"
+			tasks: [{
+				id: "43402BF26297303B"
+				title: "Power Gen"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["089AB7F6D2A6E393"]
+			id: "67734040569AE096"
+			rewards: [{
+				id: "75CF76B8A7D50665"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38767372CBE6DB31"
+				item: "gtceu:mv_centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67734040569AE096"]
+			description: ["You should try to automate this. MV Emitters for the win"]
+			id: "7D356068FDFA767D"
+			rewards: [{
+				id: "04846ECC202473D2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "333FF4FC054C3999"
+				item: { Count: 2, id: "gtceu:raw_emerald" }
+				type: "item"
+			}]
+			title: "Even more ores!"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1AF2494549817153"
+				"7D356068FDFA767D"
+			]
+			description: ["Get some raw emeralds, hammer them down and then ore wash it to get purified emeralds. Then good luck getting Flawless Emeralds"]
+			id: "18F89B0710E99AAF"
+			rewards: [{
+				id: "417ADC05046619C7"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0605D1889F29D5BE"
+					item: "gtceu:mv_emitter"
+					type: "item"
+				}
+				{
+					id: "384EF387955DC15A"
+					item: "gtceu:mv_sensor"
+					type: "item"
+				}
+			]
+			title: "You will hate this on MV #2"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["089AB7F6D2A6E393"]
+			description: ["If you don't want to use the ore washer you can drop the ores in a cauldron with water."]
+			id: "3AC10294813C5823"
+			optional: true
+			rewards: [{
+				id: "64B6DAE047A4180A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "Soon"
+			tasks: [{
+				id: "3103443C59B5DA53"
+				item: "gtceu:mv_ore_washer"
+				type: "item"
+			}]
+			title: "Ore processing when?"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["18F89B0710E99AAF"]
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						data: 6
+						id: "hostilenetworks:witch"
+					}
+				}
+			}
+			id: "53E330337358D8DC"
+			rewards: [{
+				id: "12E0E9CD8A8A734F"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							data: 6
+							id: "hostilenetworks:witch"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "1D3793F2F4EB65B1"
+					item: { Count: 2, id: "gtceu:mv_emitter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "19F1C47E6BB3EAA7"
+					item: { Count: 2, id: "gtceu:mv_sensor" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "2CFC62382B40F716"
+					item: "gtceu:double_aluminium_plate"
+					type: "item"
+				}
+			]
+			title: "Glowstone! Finally"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["089AB7F6D2A6E393"]
+			id: "270E49D0F0B9D165"
+			rewards: [{
+				id: "79725DFC9160ACEC"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D1EF03A964A44A9"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			title: "Avengers, Assemble!"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["270E49D0F0B9D165"]
+			id: "279DC65869F9FA90"
+			rewards: [{
+				id: "3813809B564674AA"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75AAE43CC72ED5A7"
+				item: "gtceu:mv_voltage_coil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["089AB7F6D2A6E393"]
+			id: "7EF5763606EA45C6"
+			rewards: [{
+				id: "791B578321539237"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "168F228AD4845797"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7EF5763606EA45C6"]
+			description: ["Electrolyze some cobaltite on MV to get normal cobalt, while also getting  arsenic."]
+			id: "1FA79A4EA720B648"
+			rewards: [{
+				id: "39698CF3F70D7F43"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B1229E1F3ACBC1B"
+				item: "gtceu:cobalt_dust"
+				type: "item"
+			}]
+			title: "Cobalt!"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FA79A4EA720B648"]
+			description: ["This isn't the last time you'll be making an obscure alloy for a cutter =)"]
+			id: "6A7A36130497849E"
+			rewards: [{
+				id: "28749A22F6230DE0"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24C9958B2D7FAAF6"
+				item: "gtceu:cobalt_brass_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A7A36130497849E"]
+			description: [
+				"Yes i know what your thinking,  LV machine on  MV? Yup,  You currently dont have access to vanadium steel to get the advanced cutter, so make this. Sowy!"
+				""
+				"Now this is excruciatingly slow so consider making a setup for  distilled water atleast."
+			]
+			id: "5362E8BA01795190"
+			optional: true
+			tasks: [{
+				id: "63B4F9CD79FA59AF"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			title: "What?"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["089AB7F6D2A6E393"]
+			description: [
+				"You can get distilled water and lubricant using this little machine."
+				""
+				"You currently don't have access to oil so make lubricant by using seed oil or creosote from a coke oven."
+				"Distilled water is a lot cheaper but isn't as fast as lubricant."
+				""
+				"Go for any of those, they're a must for the boules and chips that you will need."
+			]
+			id: "4DFA29090D0F1B6C"
+			rewards: [{
+				id: "30865362C2ED9AB1"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23970349ED58E513"
+				item: "gtceu:mv_distillery"
+				type: "item"
+			}]
+			title: "Faster Cutter"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"This is a cool material."
+				""
+				"You have 2 options to make it:"
+				"- make an LV cutter to cut a redstone block into 9 plates;"
+				"- extract redstone into liquid redstone and then fluid solidify it into a redstone plate;"
+			]
+			id: "0EF069DF318BBB74"
+			rewards: [{
+				id: "13B86FB5564A9A4D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05488710C4EDE8B2"
+				item: "gtceu:redstone_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EF069DF318BBB74"]
+			description: ["Yes we know this recipe might look crazy, but i was crazy once, they locked me in a room..."]
+			id: "0BBFB1DA136C3EA0"
+			rewards: [{
+				id: "3234BD6A6DCEAEB2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D604B8C6412C87A"
+				item: "gtceu:ruby_gem"
+				type: "item"
+			}]
+			title: "Ruby"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0BBFB1DA136C3EA0"]
+			icon: "gtceu:chromium_dust"
+			id: "35581FB067BD40D2"
+			rewards: [{
+				id: "4314F53D644521E5"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "7E198219DF1E257C"
+					item: { Count: 2, id: "gtceu:aluminium_dust" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5873B6BF314945FE"
+					item: { Count: 2, id: "gtceu:chromium_dust" }
+					type: "item"
+				}
+			]
+			title: "Chrome! (And better Aluminum)"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67734040569AE096"]
+			description: [
+				"Yay new material!"
+				""
+				"Get Vanadium by &ccentrifuging&r some wrought iron ingots, have you made a set up for those yet?"
+			]
+			id: "53CC0D64B6EF7820"
+			rewards: [{
+				id: "41F4632FB4F853D6"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5E275DC68FEA1646"
+				item: { Count: 2, id: "gtceu:vanadium_dust" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"53CC0D64B6EF7820"
+				"35581FB067BD40D2"
+				"08277571DE9AE2F4"
+			]
+			description: [
+				"Yup, mix some materials and get vanadium steel."
+				"Maybe is time for a second EBF? Maybe a third one?"
+				""
+				"Reminder to get the Mixer if u havent made it yet."
+			]
+			id: "44DD4446278E8F14"
+			rewards: [{
+				id: "0A5BBB370409B5EF"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6079D7569F176164"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["44DD4446278E8F14"]
+			hide_dependent_lines: true
+			id: "6F17B7E1C7B46BDB"
+			rewards: [{
+				id: "471057F03ADDF21F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FEAB6148691B469"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A7A36130497849E"]
+			id: "08277571DE9AE2F4"
+			rewards: [{
+				id: "18D2CCCE898759C5"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06DE85DDD0924063"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			title: "MV Mixer"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["089AB7F6D2A6E393"]
+			description: ["This is the start of infinite clay, aluminium, lithium, etc."]
+			id: "070CEF22C846C7D6"
+			rewards: [{
+				id: "4CF12F8C155B62FD"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "676CC64871355A29"
+				item: "gtceu:mv_rock_crusher"
+				type: "item"
+			}]
+			title: "Passiving everything!"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["070CEF22C846C7D6"]
+			icon: "minecraft:gravel"
+			id: "5ABB02E0E94ED6AA"
+			rewards: [{
+				id: "1DDAC44F5C27A21C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "152D23D15758E1D5"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5ABB02E0E94ED6AA"]
+			icon: "minecraft:sand"
+			id: "7855F1862C60A9AB"
+			rewards: [{
+				id: "6BB05E8496C7DCFD"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B28C447105684F8"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7855F1862C60A9AB"]
+			icon: "exdeorum:dust"
+			id: "0E8F289B12D5F64E"
+			rewards: [{
+				id: "23F95D838A6EBE0A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C26C47E9D9730D5"
+				item: "exdeorum:dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E8F289B12D5F64E"]
+			icon: "gtceu:mv_arc_furnace"
+			id: "60991870E4E3B8B8"
+			rewards: [{
+				id: "0593668E4D0E4C5B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "228FC989304BE97D"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "0092695F2E2E124A"
+					item: "gtceu:mv_arc_furnace"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"60991870E4E3B8B8"
+				"4DFA29090D0F1B6C"
+			]
+			description: ["More watha!"]
+			id: "362C0C4282CA0E48"
+			optional: true
+			rewards: [{
+				id: "1C691711841A4593"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "178840548B8704AE"
+				item: "watersources:water_source_tier_2"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["60991870E4E3B8B8"]
+			icon: "gtceu:clay_dust"
+			id: "6F8148B0A09612A8"
+			rewards: [{
+				id: "5A9E6511D353D0A2"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24F93E34C7AFF0D1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:dusts/clay)"
+					}
+				}
+				title: "Any #forge:dusts/clay"
+				type: "item"
+			}]
+			title: "The start of something?"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"6F8148B0A09612A8"
+				"7EF5763606EA45C6"
+			]
+			description: [
+				"Welcome to this new \"age\""
+				""
+				"This is passive Aluminium, Clay, Sodium, Lithium and Silicon."
+			]
+			icon: "gtceu:silicon_dust"
+			id: "62F0AC69281C7C29"
+			rewards: [{
+				id: "48D02DAB36D1955C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "Baby's first passive processing line"
+			tasks: [
+				{
+					id: "616416396B76216D"
+					item: "gtceu:silicon_dust"
+					type: "item"
+				}
+				{
+					id: "34DC18A994404EE3"
+					item: "gtceu:aluminium_dust"
+					type: "item"
+				}
+				{
+					id: "011FC032E949012B"
+					item: "gtceu:lithium_dust"
+					type: "item"
+				}
+				{
+					id: "222E099966A81145"
+					item: "gtceu:sodium_dust"
+					type: "item"
+				}
+			]
+			title: "Passive!"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["62F0AC69281C7C29"]
+			description: ["Silicon Boules, those are kinda annoying to craft early game. You could consider passiving them, but remember that the will get replaced later by other boules like the phosphorus ones."]
+			id: "2CEF142F1347E4B7"
+			rewards: [{
+				id: "731C9BBE60A892F7"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49EB665B02696C6F"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			title: "Batchcraft this"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2CEF142F1347E4B7"
+				"6F17B7E1C7B46BDB"
+			]
+			description: ["Still no lubricant? Damn..."]
+			id: "2C452AC455C9F798"
+			rewards: [{
+				id: "2A3491BB87598762"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "2DD5218DE59FDA2A"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			title: "Wafers"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18F89B0710E99AAF"]
+			id: "0B24FFCB0F9028E5"
+			rewards: [{
+				id: "3BDCEB07D678FC92"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A42D8AC4F1F53D"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0B24FFCB0F9028E5"
+				"6F17B7E1C7B46BDB"
+			]
+			description: [
+				"Unfortunately, some materials are incompatible with benders, so you need to cut a block into plates, then put one of the plates through a lathe to get the lens."
+				""
+				"You get an orange lens as a gift since you can't craft the ones that don't have an ore counterpart yet!"
+			]
+			id: "47F6AD489D5C7003"
+			rewards: [
+				{
+					id: "03F563B018534E52"
+					item: "gtceu:orange_glass_lens"
+					type: "item"
+				}
+				{
+					id: "2421F7BAA1E1421C"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D23C9D2EDAFF976"
+					item: "gtceu:diamond_lens"
+					type: "item"
+				}
+				{
+					id: "1C0FD1E9D3CE8AED"
+					item: "gtceu:emerald_lens"
+					type: "item"
+				}
+				{
+					id: "0EE88DA301F6EE55"
+					item: "gtceu:ruby_lens"
+					type: "item"
+				}
+				{
+					id: "7B1A8D7E85FF3385"
+					item: "gtceu:sapphire_lens"
+					type: "item"
+				}
+			]
+			title: "Lensing the world"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2C452AC455C9F798"
+				"47F6AD489D5C7003"
+			]
+			description: ["This quest used to require 32 of each wafer, lol."]
+			id: "22DCB2E95D47FADC"
+			rewards: [{
+				id: "5AA48D41375D0229"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7483DEF48B401995"
+					item: "gtceu:cpu_wafer"
+					type: "item"
+				}
+				{
+					id: "032BFAE8A76FC830"
+					item: "gtceu:ram_wafer"
+					type: "item"
+				}
+				{
+					id: "2EBDE8FDF769CE1E"
+					item: "gtceu:ilc_wafer"
+					type: "item"
+				}
+				{
+					id: "136A6B2890D6D946"
+					item: "gtceu:ulpic_wafer"
+					type: "item"
+				}
+			]
+			title: "Wafers, but with lens"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22DCB2E95D47FADC"]
+			description: ["Very precise."]
+			id: "18668CEE8EC1353E"
+			rewards: [{
+				id: "1B50930E55099FA6"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1D8690F8B7E2C96D"
+					item: "gtceu:cpu_chip"
+					type: "item"
+				}
+				{
+					id: "7A860538948FD4F4"
+					item: "gtceu:ram_chip"
+					type: "item"
+				}
+				{
+					id: "7A83BFFAC41CA045"
+					item: "gtceu:ulpic_chip"
+					type: "item"
+				}
+				{
+					id: "464B6BF61FC81602"
+					item: "gtceu:ilc_chip"
+					type: "item"
+				}
+			]
+			title: "Chips"
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"18668CEE8EC1353E"
+				"279DC65869F9FA90"
+			]
+			id: "602C98D4F15BF4D0"
+			rewards: [{
+				id: "7D6ED0F2E47C6A56"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FF71E9EB148089D"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "Overclocking to HV"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35581FB067BD40D2"]
+			description: ["Wait, why is the result shiny?"]
+			id: "014FC16336774705"
+			rewards: [{
+				id: "47D01536B2D03545"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B64DB6BEBBF0FAD"
+				item: "gtceu:kanthal_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6DCF95D375D3A848"]
+			id: "37899B413FBB19ED"
+			rewards: [{
+				id: "6D0C79058B462541"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "64422347D17818A1"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			title: "Kanthal Age"
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"37899B413FBB19ED"
+				"040E4BD75ABC15DD"
+			]
+			id: "1AD136F25B306F75"
+			rewards: [{
+				count: 5
+				id: "156A07EEA9A5003D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "093AE641E4216B39"
+				item: { Count: 16, id: "gtceu:kanthal_coil_block" }
+				type: "item"
+			}]
+			title: "Kanthal Coil Block"
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1AD136F25B306F75"]
+			description: ["Did you passive chromium?"]
+			id: "46A878765A5DB2BA"
+			rewards: [{
+				id: "33F1DA4BAECD8C7E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "Acero inoxidable, en español."
+			tasks: [{
+				count: 8L
+				id: "0F21B31D4953D0C5"
+				item: { Count: 8, id: "gtceu:stainless_steel_ingot" }
+				type: "item"
+			}]
+			title: "We're now on HV right?"
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2F459E86E600C4DD"]
+			description: [
+				"Another LV machine? That's crazy..."
+				""
+				"These will always require the next tier of circuits, and will often make some insanely cheap recipes!"
+			]
+			id: "27673572DE928611"
+			rewards: [{
+				id: "48271652DCA10B6F"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34A5C2AE3619B304"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1AD136F25B306F75"]
+			description: ["Get a hot silicon ingot on the EBF, then cool it down on a chemical bath"]
+			id: "06DE434A12522869"
+			rewards: [{
+				id: "2BE78A6DA1EDBE87"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "(this one is also hot)"
+			tasks: [{
+				id: "70449CCCCC5DDB8F"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["44DD4446278E8F14"]
+			description: [
+				"Tell me this isn't a cool multiblock (you can't)."
+				""
+				"This is a fluid drilling rig, and it will help you get fluids out of the void, at least 'till you get a better way of getting oil."
+				""
+				"You can use this for polyethylene, and it will be the way that the quests do, but if you really don't wanna do this, the quest is gonna be optional so you can go full vegan mode."
+				""
+				"Also, if you see only refinery gas in your prospector, you will need to move to another chunk, it's useless for you."
+				""
+				"(second page)"
+				""
+				"{@pagebreak}"
+				""
+				"You can also distill de oil into different types of oil and gases to get energy."
+				"Refinery gas might be useful if you wanna make cool gas turbines from LFG."
+				""
+				"We understand people may not like making prospectors, so here is one for free."
+				""
+				"If the oil is too far away, you can use long distance fluid pipelines to bring the oil into your base."
+			]
+			icon: "gtceu:mv_fluid_drilling_rig"
+			id: "1E04F58E81F4F89F"
+			optional: true
+			rewards: [
+				{
+					id: "7E4FE85146C00A89"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.luv"
+						tag: {
+							Charge: 1000000000L
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "47CBA307CC54E157"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "694F06817817123E"
+					item: "gtceu:mv_fluid_drilling_rig"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "70CCA2B524955648"
+					item: { Count: 15, id: "gtceu:steel_frame" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3FCC7EC32E984E51"
+					item: { Count: 8, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Congrats in getting Polyethylene!"
+				""
+				"What route did you use?"
+			]
+			id: "26C62836B41D0095"
+			rewards: [
+				{
+					count: 5
+					id: "5F976752542D2A70"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+				{
+					id: "64FB6F55FF9BAF2E"
+					item: {
+						Count: 1
+						id: "trophymanager:trophy"
+						tag: {
+							BaseBlock: "minecraft:smooth_stone_slab"
+							Name: "Polyethylene!"
+							OffsetY: 0.55d
+							Scale: 0.75d
+							TrophyItem: {
+								Count: 1.0d
+								id: "gtceu:polyethylene_foil"
+							}
+							TrophyType: "item"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "AKA go to hell v.alpha"
+			tasks: [{
+				id: "7AEEE37CC3A64D6C"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			title: "&bPolyethelene"
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["27673572DE928611"]
+			id: "120A7C2F5C28CD00"
+			rewards: [{
+				id: "0F2E51C8192BE85D"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F129430455402F7"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["120A7C2F5C28CD00"]
+			id: "77E14BEBA6738F18"
+			rewards: [{
+				id: "2EBB731D15A19582"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BD865FD0AA6519F"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"26C62836B41D0095"
+				"06DE434A12522869"
+			]
+			description: ["Bend the silicon ingots into plates."]
+			id: "63452C5A3536E82A"
+			rewards: [{
+				id: "12039BFF4CC4838E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CAD0AEF650DD40E"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"63452C5A3536E82A"
+				"77E14BEBA6738F18"
+			]
+			id: "41D39163C8154F7C"
+			rewards: [{
+				count: 5
+				id: "01D8A3C128FA092B"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5DEDD21BF8BAF0D0"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			title: "First HV circuit"
+			x: 6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"41D39163C8154F7C"
+				"46A878765A5DB2BA"
+			]
+			description: ["Welcome to HV"]
+			id: "331055377E5032C8"
+			rewards: [{
+				count: 2
+				id: "4044D75B594BAB7C"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "70093906B226A70D"
+				item: "gtceu:hv_machine_casing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44DD4446278E8F14"]
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						data: 6
+						id: "hostilenetworks:slime"
+					}
+				}
+			}
+			id: "733971C42894950A"
+			optional: true
+			rewards: [{
+				id: "6F82D29A18DDD0B8"
+				item: {
+					Count: 1
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							data: 6
+							id: "hostilenetworks:slime"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "5B03082BEE041711"
+					item: { Count: 16, id: "gtceu:vanadium_steel_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "332AC4C7DFC800C3"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:circuits/mv)"
+						}
+					}
+					title: "Any #gtceu:circuits/mv"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "4AFD1AAEF9DFAD6A"
+					item: { Count: 16, id: "gtceu:cobalt_dust" }
+					type: "item"
+				}
+			]
+			title: "Sticky Resin, Automated"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63452C5A3536E82A"]
+			description: [
+				"LESGOOOO"
+				"Finally better ore generation."
+			]
+			id: "5936175360D8F049"
+			rewards: [{
+				id: "37EDA2EE8EA87D8A"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BCF61DC22412BE6"
+				item: "gtceu:mv_electric_extractinator"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["41D39163C8154F7C"]
+			description: [
+				"This is the greenhouse multiblock, it will help you deal with wood issues and other materials."
+				""
+				"You can make it give resin while doing rubber trees, but you will need to boost the greenhouse using fertilizer for it."
+				""
+				"&lMake sure you use that exact chiseled glowstone block!"
+			]
+			id: "5DD037064DB51B4D"
+			rewards: [{
+				count: 2
+				id: "6150685FE5B4B746"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14CC205BF8F6B6FF"
+				item: "gtceu:greenhouse"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["62F0AC69281C7C29"]
+			id: "5286756F90CCF499"
+			subtitle: "MV Voltage Superconductor"
+			tasks: [{
+				id: "58D84AD8F926EE32"
+				item: "gtceu:hsc_superconductor_single_wire"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"014FC16336774705"
+				"602C98D4F15BF4D0"
+			]
+			description: ["Quick, dunk this in a chemical bath with water to cool it down! You can't hold these for very long."]
+			id: "6DCF95D375D3A848"
+			subtitle: "\"Think fast, chucklenut!\""
+			tasks: [{
+				id: "4E8690B05A7F4C2D"
+				item: "gtceu:hot_kanthal_ingot"
+				type: "item"
+			}]
+			title: "Ouch!"
+			x: 11.5d
+			y: 6.0d
+		}
+	]
+	subtitle: ["Medium Voltage"]
+	title: "&#a3eef7Tier 2 - MV"
+}

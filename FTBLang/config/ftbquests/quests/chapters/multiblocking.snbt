@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "multiblocking"
+	group: "457C1F56243DA4F7"
+	icon: "gtceu:electric_blast_furnace"
+	id: "59A35A8787463EF9"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.multiblocking.quest2646630718291626748.description1}"
+				""
+				"{ftbquests.chapter.multiblocking.quest2646630718291626748.description2}"
+				"{ftbquests.chapter.multiblocking.quest2646630718291626748.description3}"
+				""
+				"{ftbquests.chapter.multiblocking.quest2646630718291626748.description4}"
+				""
+				"{ftbquests.chapter.multiblocking.quest2646630718291626748.description5}"
+				"{ftbquests.chapter.multiblocking.quest2646630718291626748.description6}"
+				"{ftbquests.chapter.multiblocking.quest2646630718291626748.description7}"
+				"{ftbquests.chapter.multiblocking.quest2646630718291626748.description8}"
+				"{ftbquests.chapter.multiblocking.quest2646630718291626748.description9}"
+				"{ftbquests.chapter.multiblocking.quest2646630718291626748.description10}"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "24BAB89DA768CAFC"
+			tasks: [{
+				id: "6848F391466096BB"
+				title: "{ftbquests.chapter.multiblocking.quest2646630718291626748.task.7514523783544215227.title}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.multiblocking.quest9077209400490241828.description1}"
+				""
+				"{ftbquests.chapter.multiblocking.quest9077209400490241828.description2}"
+			]
+			id: "7DF8B9DB4C0EAF24"
+			tasks: [{
+				id: "778B4B8C60F5A5E4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/wrenches)"
+					}
+				}
+				title: "{ftbquests.chapter.multiblocking.quest9077209400490241828.task.8614061778570421732.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.multiblocking.quest9077209400490241828.title}"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			description: ["{ftbquests.chapter.multiblocking.quest7456806855870867832.description1}"]
+			id: "677BE653DAE16978"
+			tasks: [{
+				id: "598C6005417C20D6"
+				item: "gtceu:ev_energy_input_hatch_16a"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.multiblocking.quest7456806855870867832.title}"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.multiblocking.quest8456678218601052798.description1}"
+				"{ftbquests.chapter.multiblocking.quest8456678218601052798.description2}"
+				""
+				"{ftbquests.chapter.multiblocking.quest8456678218601052798.description3}"
+				"{ftbquests.chapter.multiblocking.quest8456678218601052798.description4}"
+				"{ftbquests.chapter.multiblocking.quest8456678218601052798.description5}"
+				""
+				"{ftbquests.chapter.multiblocking.quest8456678218601052798.description6}"
+			]
+			id: "755C2808CF7FBA7E"
+			tasks: [{
+				id: "485758771D3DF096"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.multiblocking.quest8456678218601052798.title}"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: ["{ftbquests.chapter.multiblocking.quest4861885196294014984.description1}"]
+			id: "4378E2D39FD5C808"
+			subtitle: "{ftbquests.chapter.multiblocking.quest4861885196294014984.subtitle}"
+			tasks: [{
+				id: "09085639DE089E30"
+				item: "gtceu:power_substation"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.multiblocking.quest4861885196294014984.title}"
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.multiblocking.title}"
+}

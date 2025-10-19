@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="shaderpacks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/shaderpacks/MakeUp-UltraFast-9.1c.zip!/" />
+      <root url="jar://$PROJECT_DIR$/shaderpacks/ComplementaryReimagined_r5.4.zip!/" />
+      <root url="jar://$PROJECT_DIR$/shaderpacks/superDuperVanilla.zip!/" />
+      <root url="jar://$PROJECT_DIR$/shaderpacks/CosmicBliss.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

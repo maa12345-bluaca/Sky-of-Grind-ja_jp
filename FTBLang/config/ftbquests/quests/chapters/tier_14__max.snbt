@@ -1,0 +1,420 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "tier_14__max"
+	group: "6B3EFCC5BFD49997"
+	icon: "avaritia:infinity_ingot"
+	id: "004423CBAE120A16"
+	order_index: 14
+	quest_links: [
+		{
+			id: "058F3102B6CC55C1"
+			linked_quest: "3C7786F4A3C00CAE"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "0C46807B21394CDE"
+			linked_quest: "3C7786F4A3C00CAE"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			id: "173EC78A892BC7B2"
+			linked_quest: "27691D0A469C4AF9"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "3D39C164B8D0999B"
+			linked_quest: "721022894AAF65E9"
+			shape: "none"
+			size: 2.0d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "41DE32D7B1243557"
+			linked_quest: "765ADE14F741C5E5"
+			x: 6.0d
+			y: -5.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["3C7786F4A3C00CAE"]
+			description: [
+				"{ftbquests.chapter.tier_14__max.quest840563943228340579.description1}"
+				""
+				"{ftbquests.chapter.tier_14__max.quest840563943228340579.description2}"
+			]
+			icon_scale: 1.5d
+			id: "0BAA4873EF207963"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "6CEDE7B656ADABB1"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_6_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4ECF59E2AA84D7CB"
+				"27691D0A469C4AF9"
+				"3E2B822216A05E3E"
+			]
+			id: "19D1E837A7CA3313"
+			size: 1.5d
+			tasks: [{
+				id: "7407A94A2E63B59D"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19D1E837A7CA3313"]
+			id: "1724853A35EE60D9"
+			subtitle: "{ftbquests.chapter.tier_14__max.quest1667604247093338329.subtitle}"
+			tasks: [{
+				id: "1A75E7D3B964B4BE"
+				item: "gtceu:reinforced_atomicforge"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4E8E8EA3099ED38C"
+				"1724853A35EE60D9"
+			]
+			id: "0D0F01942BEE582F"
+			tasks: [{
+				id: "0740C6D4D7C92D17"
+				item: "avaritia:extreme_anvil"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BAA4873EF207963"]
+			description: [
+				"{ftbquests.chapter.tier_14__max.quest2279635601746370761.description1}"
+				""
+				"{ftbquests.chapter.tier_14__max.quest2279635601746370761.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "kubejs:asteroid_belt_marker"
+			id: "1FA2E480736D20C9"
+			shape: "diamond"
+			size: 0.5d
+			tasks: [{
+				dimension: "sogcore:asteroid_belt"
+				icon: "kubejs:asteroid_belt_marker"
+				id: "4C1EF8C1C014EAB2"
+				title: "{ftbquests.chapter.tier_14__max.quest2279635601746370761.task.5485094907218815666.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.tier_14__max.quest2279635601746370761.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FA2E480736D20C9"]
+			description: [
+				"{ftbquests.chapter.tier_14__max.quest5678856485195798475.description1}"
+				"{ftbquests.chapter.tier_14__max.quest5678856485195798475.description2}"
+				""
+				"{ftbquests.chapter.tier_14__max.quest5678856485195798475.description3}"
+			]
+			id: "4ECF59E2AA84D7CB"
+			tasks: [{
+				id: "61BF4F370B677970"
+				item: "gtceu:dimensional_miner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4ECF59E2AA84D7CB"
+				"27691D0A469C4AF9"
+			]
+			id: "4E8E8EA3099ED38C"
+			size: 1.5d
+			tasks: [{
+				id: "29586BEA618B9BDF"
+				item: "gtceu:space_time_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04F7D3ACF20599F7"]
+			icon: "avaritia:infinity_sword"
+			id: "0EEC8806D9B7E7D4"
+			tasks: [
+				{
+					id: "16C2DDC8DB2F3CB0"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "658B92015BEC9603"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "136FCAED631FB078"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "1F122BDEA1A62051"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+				{
+					id: "0EE8E5A335D8DE35"
+					item: "avaritia:infinity_sword"
+					type: "item"
+				}
+				{
+					id: "461E93EE961A9BE6"
+					item: "avaritia:infinity_bow"
+					type: "item"
+				}
+				{
+					id: "61AEF21215E6154B"
+					item: "avaritia:infinity_crossbow"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_14__max.quest1075383974038595540.title}"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48D9A5E238C5F6C5"]
+			id: "7077A1AECE496480"
+			tasks: [{
+				id: "6F32172ED6B9DE19"
+				item: "kubejs:dimensional_processor_mainframe"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tier_14__max.quest8104123826633794688.title}"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1724853A35EE60D9"]
+			hide_dependency_lines: true
+			icon: "kubejs:eternity_nanites"
+			icon_scale: 1.5d
+			id: "7F0C919A5E9E77BF"
+			shape: "none"
+			tasks: [
+				{
+					id: "56AA337828AEF84F"
+					item: "kubejs:cosmic_matter_nanites"
+					type: "item"
+				}
+				{
+					id: "188D4EA6FF1B5B0F"
+					item: "kubejs:universium_nanites"
+					type: "item"
+				}
+				{
+					id: "1F55CE853400CFB4"
+					item: "kubejs:stellar_matter_nanites"
+					type: "item"
+				}
+				{
+					id: "7D1730167B42FC7D"
+					item: "kubejs:eternity_nanites"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_14__max.quest9154852234735810495.title}"
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19D1E837A7CA3313"]
+			id: "48D9A5E238C5F6C5"
+			tasks: [{
+				id: "4738CDB2D4956329"
+				item: "kubejs:dimensional_processor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["280F3A15E7F8C4CF"]
+			icon: "gtceu:universium_block"
+			id: "3E2B822216A05E3E"
+			subtitle: "{ftbquests.chapter.tier_14__max.quest4479817337270197822.subtitle}"
+			tasks: [
+				{
+					id: "396FE0C9DFFF2051"
+					item: "gtceu:stellar_matter_plasma_bucket"
+					type: "item"
+				}
+				{
+					id: "6A7F703FF7961EC8"
+					item: "gtceu:universium_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tier_14__max.quest4479817337270197822.title}"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E8E8EA3099ED38C"]
+			id: "280F3A15E7F8C4CF"
+			tasks: [{
+				id: "2F405ABD14397EE1"
+				item: "kubejs:dimensional_pump_module"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E8E8EA3099ED38C"]
+			id: "04F7D3ACF20599F7"
+			tasks: [{
+				id: "72B819C13B63EAEC"
+				item: "gtceu:chaotic_fusion_injector"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F0C919A5E9E77BF"]
+			icon_scale: 2.0d
+			id: "765ADE14F741C5E5"
+			tasks: [{
+				id: "4E88A56846CF5A6A"
+				item: "avaritia:enhancement_core"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3C7786F4A3C00CAE"]
+			id: "147EE13417BC41A4"
+			subtitle: "{ftbquests.chapter.tier_14__max.quest1476865341676863908.subtitle}"
+			tasks: [{
+				id: "5222D102E6477A57"
+				item: "gtceu:uxv_energy_input_hatch_16a"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "203EDAF44CA6A68F"
+			tasks: [{
+				id: "44B935941ED2D099"
+				item: "gtceu:creative_energy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			id: "21DB66835BD2EC43"
+			tasks: [{
+				id: "4FCA148EE4F4733F"
+				item: "gtceu:creative_computation_provider"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E8E8EA3099ED38C"]
+			description: [
+				"{ftbquests.chapter.tier_14__max.quest9034634086455231847.description1}"
+				"{ftbquests.chapter.tier_14__max.quest9034634086455231847.description2}"
+				"{ftbquests.chapter.tier_14__max.quest9034634086455231847.description3}"
+			]
+			id: "7D6177D586CCC567"
+			size: 0.5d
+			subtitle: "{ftbquests.chapter.tier_14__max.quest9034634086455231847.subtitle}"
+			tasks: [
+				{
+					id: "0323A06676573AC6"
+					item: "gtceu:hyper_assembly_line"
+					type: "item"
+				}
+				{
+					id: "3CE8904CF3DFF3C6"
+					item: "gtceu:hyper_assembler"
+					type: "item"
+				}
+				{
+					id: "5E6DB28BEA3AB2B2"
+					item: "gtceu:hyper_cutter"
+					type: "item"
+				}
+				{
+					id: "4A0EB1BC64A7E8E7"
+					item: "gtceu:hyper_laser_engraver"
+					type: "item"
+				}
+				{
+					id: "2BBA0C3DFE3240AF"
+					item: "gtceu:hyper_arc_furnace"
+					type: "item"
+				}
+				{
+					id: "78D1FE48319DB25B"
+					item: "gtceu:hyper_bender"
+					type: "item"
+				}
+				{
+					id: "6B765EBDEBC425F2"
+					item: "gtceu:hyper_wiremill"
+					type: "item"
+				}
+				{
+					id: "77CB391425A7B039"
+					item: "gtceu:hyper_lathe"
+					type: "item"
+				}
+				{
+					id: "463A25B8F60438C1"
+					item: "gtceu:hyper_extruder"
+					type: "item"
+				}
+				{
+					id: "1A93F35A6A0A223C"
+					item: "gtceu:hyper_mixer"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.tier_14__max.subtitle0}"]
+	title: "{ftbquests.chapter.tier_14__max.title}"
+}
