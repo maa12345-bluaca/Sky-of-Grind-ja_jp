@@ -4,42 +4,48 @@ Platform.mods.bloodmagic.name = 'GregTechBM';
 StartupEvents.registry('item', sog => {
     //Universal circuits
         const tiers = ["ulv", "lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv", "uev", "uiv"]
+        var tiers_edited = "test"
         tiers.forEach((universal_circuit) => {
+            if (universal_circuit == "luv"){ // For "LuV"
+                 tiers_edited = "LuV"
+            } else {
+                tiers_edited = universal_circuit.toUpperCase()
+            }
             sog.create(universal_circuit + "_universal_circuit")
                 .tag("gtceu:circuits/" + universal_circuit)
                 .tag("gtceu:circuits/universal")
-                .displayName(universal_circuit.toUpperCase() + " Universal Circuit")
-                .tooltip("§7A Universal Circuit")
+                .displayName(tiers_edited + " Universal Circuit")
+                .tooltip(Text.translatable("item.kubejs.universal_circuit.tooltip"))
                 .textureJson({ layer0: `kubejs:item/universal_circuit/${universal_circuit}_universal_circuit` })
         })
 
     // Circuit stuff
 sog.create('star_extruder_mold').maxStackSize(64).glow(true).displayName('Extruder Mold (Star)')
-sog.create('resonant_processor').maxStackSize(64).displayName('Resonant Processor').tooltip('§2ZPM-Tier Circuit')
-sog.create('resonant_processor_assembly').maxStackSize(64).displayName('Resonant Processor Assembly').tooltip('§2UV-Tier Circuit')
-sog.create('resonant_processor_computer').maxStackSize(64).displayName('Resonant Processor Computer').tooltip('§2UHV-Tier Circuit')
-sog.create('resonant_processor_mainframe').maxStackSize(64).displayName('Resonant Processor Mainframe').tooltip('§2UEV-Tier Circuit')
-sog.create('dragon_processor').maxStackSize(64).displayName('Dragon Processor').tooltip('§5UV-Tier Circuit')
-sog.create('dragon_processor_assembly').maxStackSize(64).displayName('Dragon Processor Assembly').tooltip('§5UHV-Tier Circuit')
-sog.create('dragon_processor_computer').maxStackSize(64).displayName('Dragon Processor Computer').tooltip('§5UEV-Tier Circuit')
-sog.create('dragon_processor_mainframe').maxStackSize(64).displayName('Dragon Processor Mainframe').tooltip('§5UIV-Tier Circuit')
-sog.create('cosmic_processor').maxStackSize(64).displayName('Cosmic Processor').tooltip('§0UHV-Tier Circuit')
-sog.create('cosmic_processor_assembly').maxStackSize(64).displayName('Cosmic Processor Assembly').tooltip('§0UEV-Tier Circuit')
-sog.create('cosmic_processor_computer').maxStackSize(64).displayName('Cosmic Processor Computer').tooltip('§0UIV-Tier Circuit')
-sog.create('cosmic_processor_mainframe').maxStackSize(64).displayName('Cosmic Processor Mainframe').tooltip('§0UXV-Tier Circuit')
-sog.create('space_time_processor').maxStackSize(64).displayName('Space Time Processor').tooltip('§bUEV-Tier Circuit')
-sog.create('space_time_processor_assembly').maxStackSize(64).displayName('Space Time Processor Assembly').tooltip('§bUIV-Tier Circuit')
-sog.create('space_time_processor_computer').maxStackSize(64).displayName('Space Time Processor Computer').tooltip('§bUXV-Tier Circuit')
-sog.create('space_time_processor_mainframe').maxStackSize(64).displayName('Space Time Processor Mainframe').tooltip('§bOPV-Tier Circuit')
+sog.create('resonant_processor').maxStackSize(64).displayName('Resonant Processor').tooltip(Text.translatable("item.kubejs.resonant_processor.tooltip"))
+sog.create('resonant_processor_assembly').maxStackSize(64).displayName('Resonant Processor Assembly').tooltip(Text.translatable("item.kubejs.resonant_processor_assembly.tooltip"))
+sog.create('resonant_processor_computer').maxStackSize(64).displayName('Resonant Processor Computer').tooltip(Text.translatable("item.kubejs.resonant_processor_computer.tooltip"))
+sog.create('resonant_processor_mainframe').maxStackSize(64).displayName('Resonant Processor Mainframe').tooltip(Text.translatable("item.kubejs.resonant_processor_mainframe.tooltip"))
+sog.create('dragon_processor').maxStackSize(64).displayName('Dragon Processor').tooltip(Text.translatable("item.kubejs.dragon_processor.tooltip"))
+sog.create('dragon_processor_assembly').maxStackSize(64).displayName('Dragon Processor Assembly').tooltip(Text.translatable("item.kubejs.dragon_processor_assembly.tooltip"))
+sog.create('dragon_processor_computer').maxStackSize(64).displayName('Dragon Processor Computer').tooltip(Text.translatable("item.kubejs.dragon_processor_computer.tooltip"))
+sog.create('dragon_processor_mainframe').maxStackSize(64).displayName('Dragon Processor Mainframe').tooltip(Text.translatable("item.kubejs.dragon_processor_mainframe.tooltip"))
+sog.create('cosmic_processor').maxStackSize(64).displayName('Cosmic Processor').tooltip(Text.translatable("item.kubejs.cosmic_processor.tooltip"))
+sog.create('cosmic_processor_assembly').maxStackSize(64).displayName('Cosmic Processor Assembly').tooltip(Text.translatable("item.kubejs.cosmic_processor_assembly.tooltip"))
+sog.create('cosmic_processor_computer').maxStackSize(64).displayName('Cosmic Processor Computer').tooltip(Text.translatable("item.kubejs.cosmic_processor_computer.tooltip"))
+sog.create('cosmic_processor_mainframe').maxStackSize(64).displayName('Cosmic Processor Mainframe').tooltip(Text.translatable("item.kubejs.cosmic_processor_mainframe.tooltip"))
+sog.create('space_time_processor').maxStackSize(64).displayName('Space Time Processor').tooltip(Text.translatable("item.kubejs.space_time_processor.tooltip"))
+sog.create('space_time_processor_assembly').maxStackSize(64).displayName('Space Time Processor Assembly').tooltip(Text.translatable("item.kubejs.space_time_processor_assembly.tooltip"))
+sog.create('space_time_processor_computer').maxStackSize(64).displayName('Space Time Processor Computer').tooltip(Text.translatable("item.kubejs.space_time_processor_computer.tooltip"))
+sog.create('space_time_processor_mainframe').maxStackSize(64).displayName('Space Time Processor Mainframe').tooltip(Text.translatable("item.kubejs.space_time_processor_mainframe.tooltip"))
 sog.create('dimensional_circuit_board').maxStackSize(64).displayName('Dimensional Circuit Board').rarity('epic')
 sog.create('dimensional_printed_circuit_board').maxStackSize(64).displayName('Dimensional Printed Circuit Board').rarity('epic')
-sog.create('dimensional_processor').maxStackSize(64).displayName('Dimensional Processor').tooltip('§f§lUIV-Tier Circuit').rarity('epic')
-sog.create('dimensional_processor_assembly').maxStackSize(64).displayName('Dimensional Processor Assembly').tooltip('§f§lUXV-Tier Circuit').rarity('epic')
-sog.create('dimensional_processor_computer').maxStackSize(64).displayName('Dimensional Processor Computer').tooltip('§f§lOPV-Tier Circuit').rarity('epic')
-sog.create('dimensional_processor_mainframe').maxStackSize(64).displayName('Dimensional Processor Mainframe').tooltip('§f§lMAX-Tier Circuit').rarity('epic')
+sog.create('dimensional_processor').maxStackSize(64).displayName('Dimensional Processor').tooltip(Text.translatable("item.kubejs.dimensional_processor.tooltip")).rarity('epic')
+sog.create('dimensional_processor_assembly').maxStackSize(64).displayName('Dimensional Processor Assembly').tooltip(Text.translatable("item.kubejs.dimensional_processor_assembly.tooltip")).rarity('epic')
+sog.create('dimensional_processor_computer').maxStackSize(64).displayName('Dimensional Processor Computer').tooltip(Text.translatable("item.kubejs.dimensional_processor_computer.tooltip")).rarity('epic')
+sog.create('dimensional_processor_mainframe').maxStackSize(64).displayName('Dimensional Processor Mainframe').tooltip(Text.translatable("item.kubejs.dimensional_processor_mainframe.tooltip")).rarity('epic')
 
     // Condensed / Atomic Stuff
-sog.create('condensed_star_matter').maxStackSize(64).displayName('Condensed Star Matter').tooltip('Matter of gods')
+sog.create('condensed_star_matter').maxStackSize(64).displayName('Condensed Star Matter').tooltip(Text.translatable("item.kubejs.condensed_star_matter.tooltip"))
 sog.create('quantum_energy_capsule').maxStackSize(64).displayName('Quantum Energy Capsule').tooltip('Not safe for work')
 sog.create('gravitational_containment_cell').maxStackSize(64).displayName('Gravitational Containment Cell')
 sog.create('gravitational_fluctuation_module').maxStackSize(64).displayName('Gravitational Fluctuation Module')

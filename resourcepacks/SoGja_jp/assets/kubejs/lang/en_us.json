@@ -1,0 +1,28 @@
+{
+  "sog.translator.comment": "See also ja_jp.json for translation",
+
+  "item.kubejs.universal_circuit.tooltip": "§7A Universal Circuit",
+  "item.kubejs.resonant_processor.tooltip":          "'§2ZPM-Tier Circuit'",
+  "item.kubejs.resonant_processor_assembly.tooltip": "§2UV-Tier Circuit",
+  "item.kubejs.resonant_processor_computer.tooltip": "§2UHV-Tier Circuit",
+  "item.kubejs.resonant_processor_mainframe.tooltip": "§2UEV-Tier Circuit",
+  "item.kubejs.dragon_processor.tooltip": "§5UV-Tier Circuit",
+  "item.kubejs.dragon_processor_assembly.tooltip": "§5UHV-Tier Circuit",
+  "item.kubejs.dragon_processor_computer.tooltip": "§5UEV-Tier Circuit",
+  "item.kubejs.dragon_processor_mainframe.tooltip": "§5UIV-Tier Circuit",
+  "item.kubejs.cosmic_processor.tooltip": "§0UHV-Tier Circuit",
+  "item.kubejs.cosmic_processor_assembly.tooltip": "§0UEV-Tier Circuit",
+  "item.kubejs.cosmic_processor_computer.tooltip": "§0UIV-Tier Circuit",
+  "item.kubejs.cosmic_processor_mainframe.tooltip": "§0UXV-Tier Circuit",
+  "item.kubejs.space_time_processor.tooltip": "§bUEV-Tier Circuit",
+  "item.kubejs.space_time_processor_assembly.tooltip": "§bUIV-Tier Circuit",
+  "item.kubejs.space_time_processor_computer.tooltip": "§bUXV-Tier Circuit",
+  "item.kubejs.space_time_processor_mainframe.tooltip": "§bOpV-Tier Circuit",
+  "item.kubejs.dimensional_processor.tooltip": "§f§lUIV-Tier Circuit",
+  "item.kubejs.dimensional_processor_assembly.tooltip": "§f§lUXV-Tier Circuit",
+  "item.kubejs.dimensional_processor_computer.tooltip": "§f§lOpV-Tier Circuit",
+  "item.kubejs.dimensional_processor_mainframe.tooltip": "§f§lMAX-Tier Circuit",
+
+  "item.kubejs.condensed_star_matter.tooltip": "Matter of gods",
+  "item.kubejs.quantum_energy_capsule": "Not safe for work"
+}
