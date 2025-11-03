@@ -11,9 +11,7 @@
   "item.kubejs.uhv_universal_circuit":       "UHVユニバーサル回路",
   "item.kubejs.uev_universal_circuit":       "UEVユニバーサル回路",
   "item.kubejs.uiv_universal_circuit":       "UIVユニバーサル回路",
-  "item.kubejs.universal_circuit.tooltip":  "統合された回路",
-
-  "item.kubejs.star_extruder_mold":          "押出形成用金型 (スター)",
+  "item.kubejs.universal_circuit.tooltip":  "§7統合された回路",
 
   "item.kubejs.resonant_processor":          "レゾナントプロセッサー",
   "item.kubejs.resonant_processor_assembly": "レゾナント演算処理装置",
@@ -59,6 +57,7 @@
 
   "item.kubejs.dimensional_circuit_board": "ディメンショナル回路基板",
   "item.kubejs.dimensional_printed_circuit_board": "ディメンショナルプリント基盤",
+  "item.kubejs.star_extruder_mold":   "押出形成用金型 (スター)",
   "item.kubejs.condensed_star_matter": "濃縮スターマター",
   "item.kubejs.condensed_star_matter.tooltip": "神の物質",
   "item.kubejs.quantum_energy_capsule": "量子エネルギーカプセル",
@@ -126,7 +125,7 @@
   "item.kubejs.infused_reactive_chaos_pellet": "吹込反応性カオスペレット",
   "item.kubejs.reactive_chaos_waste": "反応性カオス残留物",
   "item.kubejs.cosmic_circuit_board": "コズミック回路基板",
-  "item.kubejs.cosmic_printed_circuit_board": "プリント基盤",
+  "item.kubejs.cosmic_printed_circuit_board": "コズミックプリント基盤",
   "item.kubejs.complex_smd_capacitor":  "複合型SMDキャパシター",
   "item.kubejs.complex_smd_diode":      "複合型SMDダイオード",
   "item.kubejs.complex_smd_inductor":   "複合型SMDインダクタ",
@@ -136,11 +135,11 @@
   "item.kubejs.eternity_nanites": "エタニティナノ粒子",
   "item.kubejs.stellar_matter_nanites": "ステラーマターナノ粒子",
   "item.kubejs.universium_nanites": "ユニバーシウムナノ粒子",
-  "item.kubejs.cosmic_data":      "データ",
-  "item.kubejs.elementary_data":  "データ",
-  "item.kubejs.eternity_data":    "データ",
-  "item.kubejs.plasma_data":      "データ",
-  "item.kubejs.singularity_data": "データ",
-  "item.kubejs.spacetime_data":   "データ",
-  "item.kubejs.universe_data":    "データ",
+  "item.kubejs.cosmic_data":      "コズミックデータ",
+  "item.kubejs.elementary_data":  "エレメンタリーデータ",
+  "item.kubejs.eternity_data":    "エタニティデータ",
+  "item.kubejs.plasma_data":      "プラズマデータ",
+  "item.kubejs.singularity_data": "シンギュラリティデータ",
+  "item.kubejs.spacetime_data":   "スペースタイムデータ",
+  "item.kubejs.universe_data":    "ユニバースデータ"
 }

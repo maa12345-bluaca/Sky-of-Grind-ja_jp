@@ -46,18 +46,18 @@ sog.create('dimensional_processor_mainframe').maxStackSize(64).displayName('Dime
 
     // Condensed / Atomic Stuff
 sog.create('condensed_star_matter').maxStackSize(64).displayName('Condensed Star Matter').tooltip(Text.translatable("item.kubejs.condensed_star_matter.tooltip"))
-sog.create('quantum_energy_capsule').maxStackSize(64).displayName('Quantum Energy Capsule').tooltip('Not safe for work')
+sog.create('quantum_energy_capsule').maxStackSize(64).displayName('Quantum Energy Capsule').tooltip(Text.translatable("item.kubejs.quantum_energy_capsule.tooltip"))
 sog.create('gravitational_containment_cell').maxStackSize(64).displayName('Gravitational Containment Cell')
 sog.create('gravitational_fluctuation_module').maxStackSize(64).displayName('Gravitational Fluctuation Module')
 sog.create('exotic_matter').maxStackSize(64).displayName('§5Exotic Matter')
 sog.create('stable_matter').maxStackSize(64).displayName('Stable Matter')
-sog.create('atomically_compressed_black_hole').maxStackSize(64).displayName('Atomically-Compressed Black Hole').tooltip('§0Hold with caution. Maintains an Event Horizon')
+sog.create('atomically_compressed_black_hole').maxStackSize(64).displayName('Atomically-Compressed Black Hole').tooltip(Text.translatable("item.kubejs.atomically_compressed_black_hole.tooltip"))
 sog.create('quantum_resonant_core').maxStackSize(64).displayName('Quantum Resonant Core')
     //Singularities Stuff 
-sog.create('quantum_anomaly').maxStackSize(64).displayName('Quantum Anomaly').glow(true).tooltip('Not safe for work')
+sog.create('quantum_anomaly').maxStackSize(64).displayName('Quantum Anomaly').glow(true).tooltip(Text.translatable("item.kubejs.quantum_anomaly.tooltip"))
 sog.create('energized_quantum_anomaly').maxStackSize(64).displayName('Energized Anomaly').glow(true)
 sog.create('stabilized_collapsed_singularity').maxStackSize(64).displayName('Stabilized Collapsed Singularity')    
-sog.create('fallen_singularity').maxStackSize(64).displayName('Fallen Singularity').tooltip('§cNot-Stabilized Collapsed Singularity')
+sog.create('fallen_singularity').maxStackSize(64).displayName('Fallen Singularity').tooltip(Text.translatable("item.kubejs.fallen_singularity.tooltip"))
 //voltage coils
 sog.create('uhv_voltage_coil').maxStackSize(64).displayName('Ultra High Voltage Coil')
 sog.create('uev_voltage_coil').maxStackSize(64).displayName('Ultra Excessive Voltage Coil')
@@ -97,9 +97,9 @@ sog.create('californite_heavy_plating').displayName('Radioactive Heavy Plating')
 sog.create('space_time_heavy_plating').displayName('Space Time Heavy Plating').texture('kubejs:item/heavy_plating/space_time_heavy_plating')
 sog.create('eternity_heavy_plating').displayName('Eternity Heavy Plating').texture('kubejs:item/heavy_plating/eternity_heavy_plating')
         //power
-sog.create('tesla_coil_mk1').displayName('Tesla Coil MKI').texture('kubejs:item/power/tesla_coil_mk1').tooltip('Produces 1 ZPM amp when used on the Tesla Tower')
-sog.create('tesla_coil_mk2').displayName('Tesla Coil MKII').texture('kubejs:item/power/tesla_coil_mk2').tooltip('Produces 1 UEV amp when used on the Tesla Tower')
-sog.create('tesla_coil_mk3').displayName('Tesla Coil MKIII').texture('kubejs:item/power/tesla_coil_mk3').tooltip('Produces 1 UXV amp when used on the Tesla Tower')
+sog.create('tesla_coil_mk1').displayName('Tesla Coil MKI').texture('kubejs:item/power/tesla_coil_mk1').tooltip(Text.translatable("item.kubejs.tesla_coil_mk1.tooltip"))
+sog.create('tesla_coil_mk2').displayName('Tesla Coil MKII').texture('kubejs:item/power/tesla_coil_mk2').tooltip(Text.translatable("item.kubejs.tesla_coil_mk2.tooltip"))
+sog.create('tesla_coil_mk3').displayName('Tesla Coil MKIII').texture('kubejs:item/power/tesla_coil_mk3').tooltip(Text.translatable("item.kubejs.tesla_coil_mk3.tooltip"))
         //Particles
 sog.create('graviton').displayName('Graviton').texture('kubejs:item/particles/graviton')   
 sog.create('quarks').displayName('Quarks').texture('kubejs:item/particles/quarks')   
