@@ -110,8 +110,8 @@ sog.create('condensed_hydrogen_ball').displayName('Condensed Hydrogen Ball').tex
         //chaos
 sog.create('reactive_blend').displayName('Reactive Blend').texture('kubejs:item/chaos/reactive_blend')    
 sog.create('reactive_chaos_dust').displayName('Reactive Chaos Dust').texture('kubejs:item/chaos/reactive_chaos_dust')    
-sog.create('reactive_chaos_pellet').displayName('Reactive Chaos Pellet').texture('kubejs:item/chaos/reactive_chaos_pellet').tooltip('Produces 1 MAX AMP on the Chaotic Singularity Reactor') 
-sog.create('infused_reactive_chaos_pellet').displayName('Infused Reactive Chaos Pellet').texture('kubejs:item/chaos/infused_reactive_chaos_pellet').tooltip('Produces 1 MAX+4 AMP on the Chaotic Singularity Reactor') 
+sog.create('reactive_chaos_pellet').displayName('Reactive Chaos Pellet').texture('kubejs:item/chaos/reactive_chaos_pellet').tooltip('')
+sog.create('infused_reactive_chaos_pellet').displayName('Infused Reactive Chaos Pellet').texture('kubejs:item/chaos/infused_reactive_chaos_pellet').tooltip('')
 sog.create('reactive_chaos_waste').displayName('Reactive Chaos Waste').texture('kubejs:item/chaos/reactive_chaos_waste')    
         //UXV stuff
 sog.create('cosmic_circuit_board').maxStackSize(64).displayName('Cosmic Circuit Board')
