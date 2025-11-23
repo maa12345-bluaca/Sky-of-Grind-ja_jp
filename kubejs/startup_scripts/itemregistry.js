@@ -6,15 +6,9 @@ StartupEvents.registry('item', sog => {
         const tiers = ["ulv", "lv", "mv", "hv", "ev", "iv", "luv", "zpm", "uv", "uhv", "uev", "uiv"]
         var tiers_edited = "test"
         tiers.forEach((universal_circuit) => {
-            if (universal_circuit == "luv"){ // For "LuV"
-                 tiers_edited = "LuV"
-            } else {
-                tiers_edited = universal_circuit.toUpperCase()
-            }
             sog.create(universal_circuit + "_universal_circuit")
                 .tag("gtceu:circuits/" + universal_circuit)
                 .tag("gtceu:circuits/universal")
-                .displayName(tiers_edited + " Universal Circuit")
                 .tooltip(Text.translatable("item.kubejs.universal_circuit.tooltip"))
                 .textureJson({ layer0: `kubejs:item/universal_circuit/${universal_circuit}_universal_circuit` })
         })
@@ -110,8 +104,8 @@ sog.create('condensed_hydrogen_ball').displayName('Condensed Hydrogen Ball').tex
         //chaos
 sog.create('reactive_blend').displayName('Reactive Blend').texture('kubejs:item/chaos/reactive_blend')    
 sog.create('reactive_chaos_dust').displayName('Reactive Chaos Dust').texture('kubejs:item/chaos/reactive_chaos_dust')    
-sog.create('reactive_chaos_pellet').displayName('Reactive Chaos Pellet').texture('kubejs:item/chaos/reactive_chaos_pellet').tooltip('Produces 1 MAX AMP on the Chaotic Singularity Reactor') 
-sog.create('infused_reactive_chaos_pellet').displayName('Infused Reactive Chaos Pellet').texture('kubejs:item/chaos/infused_reactive_chaos_pellet').tooltip('Produces 1 MAX+4 AMP on the Chaotic Singularity Reactor') 
+sog.create('reactive_chaos_pellet').displayName('Reactive Chaos Pellet').texture('kubejs:item/chaos/reactive_chaos_pellet').tooltip(Text.translatable("item.kubejs.reactive_chaos_pellet.tooltip"))
+sog.create('infused_reactive_chaos_pellet').displayName('Infused Reactive Chaos Pellet').texture('kubejs:item/chaos/infused_reactive_chaos_pellet').tooltip(Text.translatable("item.kubejs.infused_reactive_chaos_pellet.tooltip"))
 sog.create('reactive_chaos_waste').displayName('Reactive Chaos Waste').texture('kubejs:item/chaos/reactive_chaos_waste')    
         //UXV stuff
 sog.create('cosmic_circuit_board').maxStackSize(64).displayName('Cosmic Circuit Board')

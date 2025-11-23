@@ -134,6 +134,7 @@
     "block.gtceu.dimensional_matter_extractor":"§5Dimensional Matter Extractor§f",
     "gtceu.dimensionalmatter":"§5Dimensional Matter Extractor",
     "gtceu.extractinator":"Electric Extractinator",
+    "block.gtceu.robust_extractinator": "Robust Extractinator",
     "block.gtceu.supercriticalvibrationsifter":"§9Supercritical Vibration Shifter§f",
     "gtceu.svs":"§9Supercritical Vibrational Sifting",
     "block.gtceu.quantum_space_projector":"§0Quantum Space Projector§f",
@@ -229,6 +230,7 @@
     "gtceu.multiblock.needed_laser_input.description": "This multiblock can ONLY be powered by Laser Target Hatches",
     "gtceu.multiblock.laser_output.description": "Power can be extracted by Laser Source Hatches",
     "gtceu.multiblock.needed_laser_output.description": "Power may only be extracted by Laser Source Hatches",
+    "gtceu.doge.coin.tooltip": "wow much coin how monyey so cwypto pwz minye v wich vewy cuwwency wow",
 
     "gtceu.jei.ore_vein.glacio_chaos": "Chaos Vein Glacio",
     "gtceu.jei.ore_vein.glacio_pitchblend": "Pitchblend Vein Glacio",
